@@ -1,0 +1,17 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>f5n stack</title>
+  <link href="http://f5n.org/stack/atom.xml" rel="self"/>
+  <link href="http://f5n.org"/>
+  <updated>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</updated>
+  <id>http://f5n.org</id>
+{{ range .Data.Pages }}
+  <entry>
+    <title>{{ .Title }}</title>
+    {{ with .Site.Author.name }}<author><name>{{.}}</name></author>{{end}}
+    <link href="{{ .Permalink }}"/>
+    <published>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</published>
+    <id>{{ .Permalink }}</id>
+    <content type="html">{{ .Content | html }}</content>
+  </entry>
+{{ end }}
+</feed>
