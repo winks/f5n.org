@@ -20,17 +20,19 @@ css:
 generate:
 	${HUGO}
 
+fixstuff:
+	bash ./_final_hook.sh
+
 regen: css generate
 
-reserve: regen
+reserve2: regen
 	${HUGO} server -D
+
+reserve: regen fixstuff
+	cd public && python -mSimpleHTTPServer 8081
 
 watch: regen
 	${HUGO} server -D -b f5n.org --watch
 
-fixrss:
-	mv public/blog/index.xml public/blog/atom.xml
-	mv public/stack/index.xml public/stack/atom.xml
-
-rsync: fixrss
-	rsync -av --delete public/ ../public2
+rsync: regen fixstuff
+	rsync -av --delete public/ _public
