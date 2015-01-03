@@ -21,7 +21,7 @@ generate:
 	${HUGO}
 
 fixstuff:
-	bash ./_final_hook.sh
+	bash ./scripts/hook_final.sh
 
 regen: css generate
 
@@ -35,4 +35,4 @@ watch: regen
 	${HUGO} server -D -b f5n.org --watch
 
 rsync: regen fixstuff
-	rsync -av --delete public/ _public
+	rsync -av --delete public/ ../public
