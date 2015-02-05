@@ -53,7 +53,7 @@ In the spirit of "Release early, release often" I am pushing this out on New Yea
 
 ### Movies I've watched
 
-  * Iron Man Trilogy ([1](http://www.imdb.com/title/tt0371746/) [2](http://www.imdb.com/title/tt1228705/) [3](http://www.imdb.com/title/tt1300854/) *had only watched part 1 before. my first BD*
+  * Iron Man Trilogy ([1](http://www.imdb.com/title/tt0371746/) [2](http://www.imdb.com/title/tt1228705/) [3](http://www.imdb.com/title/tt1300854/)) *had only watched part 1 before. my first BD*
   * [The Avengers](http://www.imdb.com/title/tt0848228/) (DVD)
   * [X-Men: Days of Future Past](http://www.imdb.com/title/tt1877832/) (Cinema)
   * [Captain America: The Winter Soldier](http://www.imdb.com/title/tt1843866/) (Cinema)
