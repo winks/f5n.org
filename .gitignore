@@ -2,3 +2,4 @@ public/
 .sass-cache
 tmp/
 themes/
+lastrun*.txt
