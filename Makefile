@@ -36,3 +36,6 @@ watch: regen
 
 rsync: regen fixstuff
 	rsync -av --delete public/ ../public
+
+lastweek:
+	./scripts/lastweek.sh
