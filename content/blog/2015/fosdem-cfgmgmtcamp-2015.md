@@ -53,7 +53,7 @@ We were on time, yay.
 
 [Beyond Configuration Management](http://lanyrd.com/2015/cfgmgmtcamp/sdhbhk/) by [@mitchellh](https://twitter.com/mitchellh) - a pretty cool keynote without bullshit and namedropping. Up next [BOSH, configuring services, not systems](http://lanyrd.com/2015/cfgmgmtcamp/sdhfgp/) by [@littleidea](https://twitter.com/littleidea) (who from now on I will call the Gruber of DevOps). Talk was good, but BOSH doesn't really interest me I think (need to read up more though) and the name is horrible, but whatever. The following panel wasn't so much my cup of tea, but maybe I don't like panels at all.
 
-Then I wanted to watch *Automate almost anything with Ansible* but apparently the speaker wasn't there (did I hear sick? not sure) so there was a cool intro talk on Ansible that basically mirrored my minor experience and showed me I at least got the basics correct.
+Then I wanted to watch *Automate almost anything with Ansible* but apparently the speaker wasn't there (did I hear sick? not sure) (edit: [He](https://twitter.com/_azulinho) sent me a link to [the repo](https://github.com/Azulinho/ansible-jenkins-showcase) so there was a cool intro talk on Ansible that basically mirrored my minor experience and showed me I at least got the basics correct.
 
 [Managing Containers at Scale with CoreOS and Kubernetes](http://lanyrd.com/2015/cfgmgmtcamp/sdhfhb/) by [@kelseyhightower](https://twitter.com/kelseyhightower) and it was a really good talk (I had heard about Kelsey when I watched his [Go for Sysadmins](https://www.youtube.com/watch?v=wyRbHhHFZh8) from Gophercon on YouTube. Too bad I missed him afterwards, would have loved to ask a few questions. Because of this talk I missed [NixOS: Your next favorite server OS](http://lanyrd.com/2015/cfgmgmtcamp/sdhfmf/) - meh.
 
@@ -87,7 +87,7 @@ We had an early flight so my last talk for the day was [Configuration Management
  * Look at slides for a few talks I missed (mostly those mentioned above)
  * Look at some things in the [Prosody](http://prosody.im/) code base
  * Look at Jez Humble's 2 books and "Release It!" by Michael T. Nygard
- * Play around with Kelsey's [Kubernetes Demo](http://go-talks.appspot.com/github.com/kelseyhightower/cfgmgmtcamp-2015/slides/coreos-kubernetes.slide#1) if it's online
+ * Play around with Kelsey's [Kubernetes Demo](http://go-talks.appspot.com/github.com/kelseyhightower/cfgmgmtcamp-2015/slides/coreos-kubernetes.slide#1) <s>if it's online</s> - [there's a repo](https://github.com/kelseyhightower/cfgmgmtcamp-2015/tree/master/demo) (thanks [@eLobatoss](https://twitter.com/eLobatoss)
  * Find out whether lxc and docker work with multicast. :P
  * Finally put my 2 puppet modules on the forge
  * Look at Mirage, Unikernels, Xen in detail
