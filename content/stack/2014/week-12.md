@@ -80,7 +80,7 @@ date = 2014-03-23T23:59:00Z
 [Beetscommandlinemusicmanagerandautotaggerhackernews]: https://news.ycombinator.com/item?id=7337021
 
 
-### Ocaml
+### OCaml
 
  - [Why OCaml, why now?][Whyocamlwhynowandysblog]
 

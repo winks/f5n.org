@@ -40,7 +40,7 @@ date = 2014-01-19T23:59:00Z
 [Lighttableplugintutorialpart1programming]: http://www.reddit.com/r/programming/comments/1v5n82/light_table_plugin_tutorial_part_1/
 
 
-### OS Development
+### OSDev
 
  - [Operating Systems: Three Easy Pieces][Operatingsystemsthreeeasypieces]
 

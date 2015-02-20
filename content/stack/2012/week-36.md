@@ -66,13 +66,13 @@ date = 2012-09-09T23:59:00Z
 
 [doctrine2sheetall]: http://www.scribd.com/doc/104932863/Doctrine2-Sheet-All
 
-### PostgreSQL
+### Postgres
 
 - [O/R modelling interlude: PostgreSQL vs MySQL][perspectivesonledgersmbormodellinginterludepostgresqlvsmysql]
 
 [perspectivesonledgersmbormodellinginterludepostgresqlvsmysql]: http://ledgersmbdev.blogspot.co.uk/2012/09/or-modelling-interlude-postgresql-vs.html
 
-### Roleplaying
+### RPG
 
  - [The Game | Eclipse Phase][thegameeclipsephase]
 

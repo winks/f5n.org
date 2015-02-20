@@ -92,7 +92,7 @@ date = 2013-01-20T23:59:00Z
 [damianzarembawhatsanycastandwhywouldiuseit]: http://damianzaremba.co.uk/2013/01/what-is-anycast-and-why-would-i-use-it/
 
 
-### OpenSource
+### Open Source
 
  - [The Reluctant Dictator][thereluctantdictatordigitaldigressionsbystuartsierra]
 

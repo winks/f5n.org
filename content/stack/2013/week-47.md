@@ -20,7 +20,7 @@ date = 2013-11-24T23:59:00Z
 [Baggageioagembundlerrakerailslikesystemforbash]: http://baggage.io/
 
 
-### Comic
+### Comics
 
  - [Spera][Spera]
 
@@ -133,7 +133,7 @@ date = 2013-11-24T23:59:00Z
 [Sslciphersuitessupportedbyyourbrowser]: https://cc.dcsec.uni-hannover.de/
 
 
-### TMUX
+### tmux
 
  - [unwiredcouch.com][Unwiredcouchcom]
 

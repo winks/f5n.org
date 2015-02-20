@@ -36,7 +36,7 @@ date = 2012-07-08T23:59:00Z
 
 [jamesmckaydotnetwhydoesmartinfowlernotunderstandfeaturebranches]: http://jamesmckay.net/2011/07/why-does-martin-fowler-not-understand-feature-branches/
 
-### Make
+### make
 
  - [GNU Make in Detail for Beginners][gnumakeindetailforbeginnerslinuxforyou]
 

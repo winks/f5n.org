@@ -52,7 +52,7 @@ date = 2014-03-30T23:59:00Z
 [Willjava8killscala]: http://ahmedsoliman.com/2014/03/26/will-java-8-kill-scala/
 
 
-### Make
+### make
 
  - [Algorithm and Blues][Algorithmandblues]
 

@@ -57,7 +57,7 @@ date = 2014-08-17T23:59:00Z
 [Inputacustomizablefontfamilysansserifmonoforcodehackernews]: https://news.ycombinator.com/item?id=8172507
 
 
-### IDE/Golang
+### IDEs/Golang
 
  - [satran/edi][Satranedi]
 
@@ -85,7 +85,7 @@ date = 2014-08-17T23:59:00Z
 [Howtheotherhalfworksanadventureinthelowstatusofsoftwareengineersmichaelochurch]: http://michaelochurch.wordpress.com/2014/07/13/how-the-other-half-works-an-adventure-in-the-low-status-of-software-engineers/
 
 
-### Ocaml
+### OCaml
 
  - [Polymorphism for beginners][Polymorphismforbeginnersthomasleonardsblog]
 

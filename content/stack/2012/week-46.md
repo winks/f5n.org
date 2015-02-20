@@ -20,7 +20,7 @@ date = 2012-11-19T23:59:00Z
 [7waystohandleconcurrencyindistributedsystemsrestforthewicked]: http://colin-scott.github.com/blog/2012/10/28/7-ways-to-deal-with-ordering-bugs-in-distributed-systems/
 
 
-### Developers
+### Development
 
  - [Engineers suck at finding the right jobs][engineerssuckatfindingtherightjobs]
 

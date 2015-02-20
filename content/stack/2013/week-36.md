@@ -76,14 +76,14 @@ date = 2013-09-08T23:59:00Z
 [V16020130906rackspacephpopencloudgithub]: https://github.com/rackspace/php-opencloud
 
 
-### Plan 9
+### Plan9
 
  - [What do people like about Plan 9][Whatdopeoplelikeaboutplan9plan9wiki]
 
 [Whatdopeoplelikeaboutplan9plan9wiki]: http://www.plan9.bell-labs.com/wiki/plan9/what_do_people_like_about_plan_9/index.html
 
 
-### Rsync
+### rsync
 
  - [Out-Tridging Tridge by improving rsync][Outtridgingtridgebyimprovingrsync]
 

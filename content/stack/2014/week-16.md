@@ -82,7 +82,7 @@ date = 2014-04-20T23:59:00Z
 [Mylittlepeacefulgroveofregretandshamethepowerofluaandmixins]: http://notmagi.me/the-power-of-lua-and-mixins/
 
 
-### OS Development
+### OSDev
 
  - [Embedded in Academia : Xv6][Embeddedinacademiaxv6]
 

@@ -6,7 +6,7 @@ date = 2013-12-15T23:59:00Z
 
 
 
-### C-lang
+### C
 
  - [GCC Poison][Gccpoisonleafsecurityresearch]
 

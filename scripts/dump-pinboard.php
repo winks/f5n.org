@@ -32,20 +32,83 @@ $line = sprintf("%s;%s", date('c', $nowTs), $nowTs);
 file_put_contents($lastrun, $line);
 
 $fix_tags = function ($tag) {
+    $special = array(
+        'anigif' => 'Animated GIF',
+        'c-lang' => 'C',
+        'clojurescript' => 'ClojureScript',
+        'devops' => 'DevOps',
+        'couchdb' => 'CouchDB',
+        'email' => 'E-Mail',
+        'gamedev' => 'Game Development',
+        'gifs' => 'GIFs',
+        'ipv6' => 'IPv6',
+        'javascript' => 'JavaScript',
+        'mysql' => 'MySQL',
+        'ocaml' => 'OCaml',
+        'opengl' => 'OpenGL',
+        'opensource' => 'Open Source',
+        'openstack' => 'OpenStack',
+        'openvpn' => 'OpenVPN',
+        'osdev' => 'OSDev',
+        'paas' => 'PaaS',
+        'postgresql' => 'Postgres',
+        'rethinkdb' => 'RethinkDB',
+        'scifi' => 'Science Fiction',
+        'starwars' => 'Star Wars',
+        'webdev' => 'Web Development',
+        'zeromq' => 'ZeroMQ',
+    );
+    if (array_key_exists(strtolower($tag), $special)) {
+        return $special[strtolower($tag)];
+    }
     $upper = array(
-        'ssl','php','xmpp',
-        'bsd','gpg','http',
-        'lxc','css','wtf',
-        'zfs','vpn','unix',
-        'uefi','stm','ssh',
-        'scm','rss','rest',
-        'irc','ide','html',
+        '3d',
+        'ai',
+        'ascii',
+        'amqp',
+        'awk',
+        'aws',
+        'bsd',
+        'c',
+        'c++',
+        'cap',
+        'cms',
+        'css',
+        'fosdem',
+        'gl',
+        'gpg',
+        'html',
+        'http',
+        'ide',
+        'irc',
+        'lxc',
+        'mq',
+        'mqtt',
+        'php',
+        'rest',
+        'rpg',
+        'rss',
+        'sat',
+        'scm',
+        'ssh',
+        'ssl',
+        'stm',
+        'uefi',
+        'unix',
+        'vim',
+        'vpn',
+        'wtf',
+        'xmpp',
+        'zfs',
     );
     if (in_array(strtolower($tag), $upper)) {
         return strtoupper($tag);
     }
     $lower = array(
-        'virtualenv','tmux','rsync',
+        'make',
+        'rsync',
+        'tmux',
+        'virtualenv',
     );
     if (in_array(strtolower($tag), $lower)) {
         #return strtolower($tag);

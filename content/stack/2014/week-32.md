@@ -27,7 +27,7 @@ date = 2014-08-10T23:59:00Z
 [Decryptingrita]: http://egypt.urnash.com/rita/
 
 
-### Functional programming
+### Functional Programming
 
  - [rntz - Intuitive hygienic macros][Rntzintuitivehygienicmacros]
  - [λ Lessons][Lessons]

@@ -30,7 +30,7 @@ date = 2012-03-11T23:59:00Z
 
 [tinkbook]: http://wondermark.com/tink8/
 
-### Python / IDE
+### Python / IDEs
 
  - [PyPedia][pypedia]: "PyPedia is a collaborative programming web environment.
    Each article in this wiki is a function or class or any other piece of

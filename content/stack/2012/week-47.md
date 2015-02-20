@@ -6,7 +6,7 @@ date = 2012-11-26T23:59:00Z
 
 
 
-### Amazon AWS
+### AWS
 
  - [Additional EC2 Operating System Support (FreeBSD, Debian, CentOS)][amazonwebservicesblogawsmarketplaceadditionalec2operatingsystemsupportfreebsddebiancentos]
 
@@ -20,7 +20,7 @@ date = 2012-11-26T23:59:00Z
 [opticaltheremindemobyterenceedenhasablog]: http://shkspr.mobi/blog/2012/06/optical-theremin-demo/
 
 
-### Clojure/Clojurescript
+### Clojure/ClojureScript
 
  - [Marrying ClojureScript and JS Frameworks – Knockout Edition | Squirrel's][marryingclojurescriptandjsframeworksknockouteditionsquirrels]
  - [cljbin][cljbin]
@@ -135,7 +135,7 @@ date = 2012-11-26T23:59:00Z
 [theproblemwithaleanstartuptheminimumviableproductpaulkortman]: http://paulkortman.com/2012/11/21/the-problem-with-a-lean-startup-the-minimum-viable-product/
 
 
-### Opensource
+### Open Source
 
  - [What Are Some Good GitHub CONTRIBUTING Examples?][askhnwhataresomegoodgithubcontributingexamples]
 

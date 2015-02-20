@@ -6,7 +6,7 @@ date = 2012-01-15T23:59:00Z
 
 
 
-### Eclipse IDE
+### Eclipse/IDEs
 
  - [Developing eclipse plugins using github and travis-ci][eclipse-gh-travis]
 
@@ -18,7 +18,7 @@ date = 2012-01-15T23:59:00Z
 
 [suprage]: http://www.startuprage.com
 
-### History of the Web
+### History
 
  - [The Deleted City][delcity]
 

@@ -74,7 +74,7 @@ date = 2014-02-09T23:59:00Z
 [Sugar]: http://sugar-framework.github.io/
 
 
-### Email
+### E-Mail
 
  - [Mailpile: Let's take e-mail back!][Mailpileletstakeemailback]
 

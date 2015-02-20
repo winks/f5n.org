@@ -145,7 +145,7 @@ date = 2012-10-21T23:59:00Z
 [7waystodecomposefatactiverecordmodelscodeclimateblog]: http://blog.codeclimate.com/blog/2012/10/17/7-ways-to-decompose-fat-activerecord-models/
 
 
-### Virtual Machine
+### Virtualization
 
  - [Sol — a sunny little virtual machine][solasunnylittlevirtualmachinerasmusandersson]
 

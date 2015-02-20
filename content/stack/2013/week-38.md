@@ -6,7 +6,7 @@ date = 2013-09-23T23:59:00Z
 
 
 
-### 3d
+### 3D
 
  - [OpenGL - Introduction][Openglintroduction]
 

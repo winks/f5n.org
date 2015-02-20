@@ -8,6 +8,14 @@ date = 2015-02-15T23:59:00Z
 A record streak of not posting, but let's try to continue.
 
 
+
+### Animated GIF
+
+ - [An algorithm to extract looping GIFs from videos][Analgorithmtoextractloopinggifsfromvideosdelself]
+
+[Analgorithmtoextractloopinggifsfromvideosdelself]: http://zulko.github.io/blog/2015/02/01/extracting-perfectly-looping-gifs-from-videos-with-python-and-moviepy/
+
+
 ### Apache
 
  - [phanan/htaccess][Htaccessreadmemdatmasterphananhtaccess]
@@ -69,14 +77,6 @@ A record streak of not posting, but let's try to continue.
  - [InstaDoom: screw #nofilter (RC1)][Instadoomscrewnofilterrc1doomworldforums]
 
 [Instadoomscrewnofilterrc1doomworldforums]: http://www.doomworld.com/vb/wads-mods/71767-instadoom-screw-nofilter-rc1/
-
-
-
-### GIFs
-
- - [An algorithm to extract looping GIFs from videos][Analgorithmtoextractloopinggifsfromvideosdelself]
-
-[Analgorithmtoextractloopinggifsfromvideosdelself]: http://zulko.github.io/blog/2015/02/01/extracting-perfectly-looping-gifs-from-videos-with-python-and-moviepy/
 
 
 

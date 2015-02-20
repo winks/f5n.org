@@ -22,6 +22,13 @@ date = 2014-05-25T23:59:00Z
 [Theweirdandwonderfulcharactersofclojure]: http://yobriefca.se/blog/2014/05/19/the-weird-and-wonderful-characters-of-clojure/
 
 
+### DNS
+
+ - [Flush Cache - Public DNS — Google Developers][Flushcachepublicdnsgoogledevelopers]
+
+[Flushcachepublicdnsgoogledevelopers]: https://developers.google.com/speed/public-dns/cache
+
+
 ### Docker
 
  - [Deploy Gitlab on your own server using Dokku][Deploygitlabonyourownserverusingdokkubytemarkblog]
@@ -57,13 +64,6 @@ date = 2014-05-25T23:59:00Z
  - [A Comparison of Go Web Frameworks][Acomparisonofgowebframeworks]
 
 [Acomparisonofgowebframeworks]: http://corner.squareup.com/2014/05/evaluating-go-frameworks.html
-
-
-### Google DNS
-
- - [Flush Cache - Public DNS — Google Developers][Flushcachepublicdnsgoogledevelopers]
-
-[Flushcachepublicdnsgoogledevelopers]: https://developers.google.com/speed/public-dns/cache
 
 
 ### Images

@@ -90,7 +90,7 @@ date = 2014-08-03T23:59:00Z
 [Thettydemystified]: http://www.linusakesson.net/programming/tty/index.php
 
 
-### Markov chains
+### Markov
 
  - [Markov Chains][Markovchains]
 
@@ -104,7 +104,7 @@ date = 2014-08-03T23:59:00Z
 [Tabdump]: http://tabdump.com/
 
 
-### Ocaml
+### OCaml
 
  - [My first unikernel][Myfirstunikernelthomasleonardsblog]
 

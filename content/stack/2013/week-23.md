@@ -6,7 +6,7 @@ date = 2013-06-09T23:59:00Z
 
 
 
-### 3d
+### 3D
 
  - [Street Fighter Motion Sculptures][streetfightermotionsculptureshypebeast]
 

@@ -6,7 +6,7 @@ date = 2013-08-25T23:59:00Z
 
 
 
-### 3d
+### 3D
 
  - [OpenGL 101: Matrices - projection, view, model | Solarian Programmer][Opengl101matricesprojectionviewmodelsolarianprogrammer]
 

@@ -77,7 +77,7 @@ Back after a short holiday break. There you see that it's handmade ;)
 [Allaboutcircuitsfreeelectriccircuitselectronicstextbooks]: http://www.allaboutcircuits.com/
 
 
-### Email
+### E-Mail
 
  - [root-io/vmail][Rootiovmail]
 

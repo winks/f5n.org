@@ -62,7 +62,7 @@ date = 2013-06-23T23:59:00Z
 [gettingstartedwithemberjsbalancedblog]: http://blog.balancedpayments.com/getting-started-with-ember.js/
 
 
-### Keyboard
+### Keyboards
 
  - [Typing Special Characters - Microsoft English US-International Keyboard][typingspecialcharactersmicrosoftenglishusinternationalkeyboard]
 

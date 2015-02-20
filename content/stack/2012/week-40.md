@@ -8,7 +8,7 @@ date = 2012-10-07T23:59:00Z
 
 Resuming after 2 weeks, blame [Blizzard](http://eu.battle.net/wow/en/).
 
-### 3d
+### 3D
 
  - [Donut math: How donut.c works][donutmathhowdonutcworkshackernews]
  - [7 Problems Raytracing Doesn't Solve][erikmcclure7problemsraytracingdoesntsolve]
@@ -148,7 +148,7 @@ Resuming after 2 weeks, blame [Blizzard](http://eu.battle.net/wow/en/).
 [linuxtcpiptuningforscalability]: http://www.lognormal.com/blog/2012/09/27/linux-tcpip-tuning/
 
 
-### PostgreSQL
+### Postgres
 
  - [pgModeler - PostgreSQL Database Modeler][pgmodelerpostgresqldatabasemodeler]
 

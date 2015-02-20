@@ -70,7 +70,7 @@ date = 2012-07-15T23:59:00Z
 
 [andeveryonegetsarobotponypharyngula]: http://scienceblogs.com/pharyngula/2012/07/14/and-everyone-gets-a-robot-pony/
 
-### Startups
+### Startup
 
  - [Don’t waste your time in crappy startup jobs][dontwasteyourtimeincrappystartupjobsmichaelochurch]
 

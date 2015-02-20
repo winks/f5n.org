@@ -20,7 +20,7 @@ date = 2014-01-26T23:59:00Z
 [Herbsutterspeakerschannel9]: http://channel9.msdn.com/Events/Speakers/Herb-Sutter
 
 
-### Devops
+### DevOps
 
  - [How operations, design, and data affect software and business: Ops edition][Howoperationsdesignanddataaffectsoftwareandbusinessopseditiondonnieberkholzsstoryofdata]
 

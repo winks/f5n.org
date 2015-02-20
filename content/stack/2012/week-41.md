@@ -84,7 +84,7 @@ date = 2012-10-14T23:59:00Z
 [typographiceffectsincanvashtml5rocks]: http://www.html5rocks.com/en/tutorials/canvas/texteffects/
 
 
-### PostgreSQL
+### Postgres
  - [How 3.6 nearly broke PostgreSQL][how36nearlybrokepostgresqllwnnet]
  - [openstreetmap in postgres][openstreetmapinpostgrestecznotes]
 

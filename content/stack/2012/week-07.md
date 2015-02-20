@@ -6,7 +6,7 @@ date = 2012-02-19T23:59:00Z
 
 
 
-### Algorithms / Rsync
+### Algorithms / rsync
 
  - [Rediscovering the rsync algorithm][redisc-rsync-algo]
 

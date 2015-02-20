@@ -75,7 +75,7 @@ Please excuse the lack of formatting this week, it's the only manual step and th
 [ocpcontrolpanelforzendoptimizerplusopcodecacheforphp]: https://gist.github.com/ck-on/4959032
 
 
-### PostgreSQL
+### Postgres
 
  - [Postgres: The Bits You Haven't Found][postgresthebitsyouhaventfound]
 

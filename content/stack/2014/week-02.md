@@ -53,7 +53,7 @@ date = 2014-01-12T23:59:00Z
 [Mqttbrokersrcmqttbrokercorecljatmasteropensensorsiomqttbrokergithub]: https://github.com/OpenSensorsIO/mqtt-broker/blob/master/src/mqtt_broker/core.clj
 
 
-### Comic
+### Comics
 
  - [Badass Fanarts][Badassfanarts]
 

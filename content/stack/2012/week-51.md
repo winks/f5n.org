@@ -23,7 +23,7 @@ Last one for 2012, enjoy.
 [booksoftwentytwelvetechnologyasifpeoplemattered]: http://blog.russolsen.com/2012/12/books-of-twenty-twelve/
 
 
-### Cryptography
+### Crypto
 
  - [A Few Thoughts on Cryptographic Engineering: The anatomy of a bad idea][afewthoughtsoncryptographicengineeringtheanatomyofabadidea]
 

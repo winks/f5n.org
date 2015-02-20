@@ -80,7 +80,7 @@ date = 2012-09-23T23:59:00Z
 
 [writingjavascriptgamesinhaskellbreakout]: http://jshaskell.blogspot.de/2012/09/breakout.html
 
-### History of Computing
+### History
 
  - [The TTY demystified][thettydemystified]
  - [Homebrew Cray-1A][homebrewcray1a]
@@ -112,7 +112,7 @@ date = 2012-09-23T23:59:00Z
 
 [pjsonbyigorgue]: http://igorgue.com/pjson/
 
-### PostgreSQL
+### Postgres
 
  - [Barman backup &amp; recovery for PostgreSql][barmanbackuprecoveryforpostgresql]
 

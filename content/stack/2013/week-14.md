@@ -55,7 +55,7 @@ date = 2013-04-08T23:59:00Z
 [introducingitchio]: http://leafo.net/posts/introducing_itchio.html#technology
 
 
-### Make
+### make
 
  - [apenwarr/redo][apenwarrredogithub]
  - [silene/remake][sileneremakegithub]

@@ -72,7 +72,7 @@ date = 2013-05-06T23:59:00Z
 [5thingsyoushouldstopdoingwithjqueryflippinawesome]: http://flippinawesome.org/2013/05/06/5-things-you-should-stop-doing-with-jquery/
 
 
-### Opensource
+### Open Source
 
  - [How to Spread The Word About Your Code][howtospreadthewordaboutyourcodemozillahacksthewebdeveloperblog]
 

@@ -116,7 +116,7 @@ date = 2013-04-02T23:59:00Z
 [redstone]: http://www.redstone.io/
 
 
-### Paas
+### PaaS
 
  - [tsuru - open source platform as a service][tsuruopensourceplatformasaservice]
 

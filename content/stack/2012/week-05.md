@@ -6,7 +6,7 @@ date = 2012-02-05T23:59:00Z
 
 
 
-### Brubeck / ZeroMQ / Mongrel2 / Python / Virtualenv
+### Brubeck / ZeroMQ / Mongrel2 / Python / virtualenv
 
  - [How to do an isolated install of Brubeck][bruiso]
  - [Designing and Testing PyZMQ Applications][pyzmq-apps]

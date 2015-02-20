@@ -33,7 +33,7 @@ date = 2013-03-24T23:59:00Z
 [peaceloveandchilariouslydebuggablelisphy]: http://blog.pault.ag/post/45232056896/hilariously-debuggable-lisp-hy
 
 
-### Comic
+### Comics
 
  - [DevOps Dave: Devs and Ops in Trench Warfare][devopsdavedevsandopsintrenchwarfare]
  - [Amusing Ourselves to Death: Huxley vs Orwell | High Existence][amusingourselvestodeathhuxleyvsorwellhighexistence]

@@ -84,7 +84,7 @@ date = 2013-10-13T23:59:00Z
 [Pheelickscomintrotoimagesingopart1]: http://www.pheelicks.com/2013/10/intro-to-images-in-go-part-1/
 
 
-### IDE
+### IDEs
 
  - [LightTable 0.5.5 released | Hacker News][Lighttable055releasedhackernews]
 
@@ -119,7 +119,7 @@ date = 2013-10-13T23:59:00Z
 [Levitatingsuperconductoronambiusstripyoutube]: https://www.youtube.com/watch?v=zPqEEZa2Gis
 
 
-### Talk
+### Talks
 
  - [Maciej Cegłowski, Pinboard - XOXO Festival (2013)][Maciejcegowskipinboardxoxofestival2013youtube]
 

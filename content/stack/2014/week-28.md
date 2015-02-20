@@ -78,7 +78,7 @@ date = 2014-07-13T23:59:00Z
 [Howistart]: http://howistart.org/posts/elixir/1
 
 
-### email
+### E-Mail
 
  - [Mail-in-a-Box][Mailinabox]
 
@@ -165,7 +165,7 @@ date = 2014-07-13T23:59:00Z
 [Etienesailor]: https://github.com/Etiene/sailor
 
 
-### Make
+### make
 
  - [Creating A Basic Make File for Compiling C Code][Typecastexceptioncreatingabasicmakefileforcompilingccode]
 

@@ -83,7 +83,7 @@ date = 2013-11-04T23:59:00Z
 [Scrapyourcakepatternboilerplatedependencyinjectionusingthereadermonadoriginatedeveloperblog]: http://blog.originate.com/blog/2013/10/21/reader-monad-for-dependency-injection/
 
 
-### Economics
+### Economy
 
  - [The How and Why of Argentina's Currency Black Market][Thehowandwhyofargentinascurrencyblackmarket]
 

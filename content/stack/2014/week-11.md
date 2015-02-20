@@ -13,7 +13,7 @@ date = 2014-03-16T23:59:00Z
 [Coinjoinbitcoinprivacyfortherealworld]: https://bitcointalk.org/index.php?topic=279249.0
 
 
-### Browser
+### Browsers
 
  - [dwb - a webkit web browser][Dwbawebkitwebbrowser]
 
@@ -36,14 +36,14 @@ date = 2014-03-16T23:59:00Z
 [Clojureonthemacappstore]: https://nightweb.net/blog/clojure-on-mac-app-store.html
 
 
-### Comic
+### Comics
 
  - [Calvin & Muad'Dib][Calvinmuaddib]
 
 [Calvinmuaddib]: http://calvinanddune.tumblr.com/
 
 
-### Devops
+### DevOps
 
  - [Creating software for sysops – make sure you do not suck][Plumbrcreatingsoftwareforsysopsmakesureyoudonotsuck]
  - [Devops University - Newsletters][DOUNewsletters]
@@ -80,7 +80,7 @@ date = 2014-03-16T23:59:00Z
 [Howquarkxpressbecameamereafterthoughtinpublishingarstechnica]: http://arstechnica.com/information-technology/2014/01/quarkxpress-the-demise-of-a-design-desk-darling/
 
 
-### Keyboard
+### Keyboards
 
  - [Designing and building a keyboard][Designingandbuildingakeyboardhackernews]
  - [Functioning Lego keyboard][Functioninglegokeyboardthebrothersbricklegoblog]

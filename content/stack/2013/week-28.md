@@ -34,7 +34,7 @@ date = 2013-07-14T23:59:00Z
 [gamasutraraminshokrizadesblogthetopf2pmonetizationtricks]: http://www.gamasutra.com/blogs/RaminShokrizade/20130626/194933/?
 
 
-### Logstash
+### Logging
 
  - [Grok Debugger][grokdebugger]
 

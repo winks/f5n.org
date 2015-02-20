@@ -13,7 +13,7 @@ date = 2013-10-20T23:59:00Z
 [Resourcesforlearningtodevelopforandroiddevicesthewebdev]: http://thewebdev.de/resources-for-learning-to-develop-for-android-devices/
 
 
-### Ascii
+### ASCII
 
  - [atextor/icat][Atextoricat]
 

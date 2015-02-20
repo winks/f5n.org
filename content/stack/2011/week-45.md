@@ -19,7 +19,7 @@ date = 2011-11-13T22:45:00Z
 
 [zelda]: http://troygilbert.com/2006/10/the-movement-and-attack-mechanics-of-the-legend-of-zelda/
 
-### Message Queue
+### MQ
 
  - [ØMQ - Mission Accomplished](http://www.250bpm.com/blog:1): The story of ZeroMQ
  - [A Storm is coming: more details and plans for release](http://engineering.twitter.com/2011/08/storm-is-coming-more-details-and-plans.html): An example project using ZeroMQ
