@@ -53,9 +53,9 @@ In addition to the links in the footer there are some places I visit:
   * [wink @ stackoverflow](http://stackoverflow.com/users/1432620/wink) - *quite inactive*
   * [kickstarter](https://www.kickstarter.com/profile/1907362337)
   * [wink's soup](http://wink.soup.io/) - *abandoned, because...*
-  * [wink's multiplex](http://wink.torret.org/) - *I built [my own](https://github.com/winks/multiplex)*
+  * [wink's multiplex](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
   * [wink's pants](http://pants.f5n.de/)
-  * No Instagram, Flickr, WhatsApp and app.net is dead
+  * No Instagram, Flickr, WhatsApp, and app.net is dead
 
 ### About this website
 

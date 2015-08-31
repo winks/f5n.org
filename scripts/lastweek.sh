@@ -39,3 +39,4 @@ sed -i -e "s,The Stack - Week XX/YY,The Stack - Week ${LASTWEEK}/${YEAR}," ${NEW
 sed -i -e "s/date = 2006-01-02T15:04:05Z07:00/date = ${YEAR}-${MON}-${DAY}T23:59:00Z/" ${NEWFILE}
 
 cat ~/tmp/dump.txt >> ${NEWFILE}
+echo "Created: ${NEWFILE}"
