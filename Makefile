@@ -6,8 +6,8 @@ clean:
 	rm -rf public/*
 	rm -rf public/.*
 
-mrproper:
-	rm -rf content/*
+#mrproper:
+#	rm -rf content/*
 
 convert:
 	hyde-hugo.py ~/www/f5n.org/source/content

@@ -9,7 +9,7 @@ if ($argc > 2) {
     }
     fwrite($stderr, 'Using '.$url. PHP_EOL);
 } else {
-    $url = 'http://feeds.pinboard.in/json/v1/u:winks/';
+    $url = 'http://feeds.pinboard.in/json/v1/u:winks/?count=400';
     fwrite($stderr, 'Using '.$url. PHP_EOL);
 }
 $source = file_get_contents($url);
