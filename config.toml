@@ -4,7 +4,7 @@ title = "f5n"
 theme = "f5norg"
 #languageCode = "en-us"
 MetaDataFormat = "toml"
-RSSlink = "/blog/atom.xml"
+RSSLink = "/blog/atom.xml"
 
 [author]
     name = "Florian Anderiasch"

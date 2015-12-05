@@ -36,14 +36,20 @@ In 2011 I wrote:
 > Javascript when I'm forced to. I've also got a degree in Computer Science from
 > [Ludwig-Maximilians-Universit&auml;t M&uuml;nchen][lmu].
 
-The degree's still there, but apart from that I'm writing mostly Python and Lua
-these days, using a lot more Puppet than is healthy for my sanity, only
-occasionally work with PHP, even less with JavaScript (whew) and am not
-actively working on learning new languags, although coming back to Haskell
-once in a while, played with Racket for a few weeks and on my to-do list as of
-summer 2014 are: Go, Rust and Julia, maybe Idris. I actually learned a little
-Ruby in the last year and while not perfect, I see some strengths now.
+In 2014 I wrote:
 
+> The degree's still there, but apart from that I'm writing mostly Python and Lua
+> these days, using a lot more Puppet than is healthy for my sanity, only
+> occasionally work with PHP, even less with JavaScript (whew) and am not
+> actively working on learning new languags, although coming back to Haskell
+> once in a while, played with Racket for a few weeks and on my to-do list as of
+> summer 2014 are: Go, Rust and Julia, maybe Idris. I actually learned a little
+> Ruby in the last year and while not perfect, I see some strengths now.
+
+Now 2015 is nearly gone, and this paragraph needs to be shorter again, so here
+it goes: less Lua :(, same amount of Python, a lot of Java, no PHP at all,
+learned some Rust, revisited OCaml after 10 years (it rocks now) and still
+haven't had a chance to use Go. JS/node can still go die in a fire.
 
 In addition to the links in the footer there are some places I visit:
 
