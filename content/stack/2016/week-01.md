@@ -7,6 +7,9 @@ date = 2016-01-03T23:59:00Z
 Happy new year! 2015 was a busy year with a lot less posts. Let's not start
 2016 by procrastinating, so here's some links. :)
 
+**Addendum:** Turns out I wasn't fully awake when posting this. Clearly it's not "Week 01/2016",
+but also not "Week 00/2016", it's "Week 53/2015" - but I'm leaving the title now.
+
 
 ### 3D
 
