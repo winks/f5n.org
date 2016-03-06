@@ -56,12 +56,17 @@ had finally found the solution, but see the update note below.
 
 (I added the last two lines myself, but they were easy enough to guess.)
 
-**Update 2014-02-05:* *At FOSDEM I just learned that it is now `mimeapps.list`
+**Update 2014-02-05:** At FOSDEM I just learned that it is now `mimeapps.list`
  instead of `defaults.list` in the same folder. Syntax seems to be the same.
 Detailed infos [on ArchWiki](https://wiki.archlinux.org/index.php/Default_Applications#Using_MIME_types_and_desktop_entries).
 Thanks, [Jerome](https://github.com/Adys) - and you should totally [watch his talk](https://fosdem.org/2014/schedule/event/lxqt_introducing_intents/).
 
-**End of Update**
+**Update 2016-01-28:** Apparently emacs also is a special snowflake and doesn't apply any of the above settings.
+There is `browse-url` which defaulted to Firefox for me until I did run `M-x customize-option -> browse-url-browser-function`
+and set it to `browse-url-chromium` (with a dropdown, `setq` seems to be the way for real emacs users).
+Here some [more info on the topic](http://www.emacswiki.org/emacs/BrowseUrl).
+
+**End of Updates**
 
 Yeah, simple as that. Paste some arcane stuff in a file you don't even have and
 it magically works. I'm not often hating on Linux desktop stuff because I am
