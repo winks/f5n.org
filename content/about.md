@@ -46,10 +46,10 @@ In 2014 I wrote:
 > summer 2014 are: Go, Rust and Julia, maybe Idris. I actually learned a little
 > Ruby in the last year and while not perfect, I see some strengths now.
 
-Now 2015 is nearly gone, and this paragraph needs to be shorter again, so here
+Now it's 2016 and this paragraph needs to be shorter again, so here
 it goes: less Lua :(, same amount of Python, a lot of Java, no PHP at all,
 learned some Rust, revisited OCaml after 10 years (it rocks now) and still
-haven't had a chance to use Go. JS/node can still go die in a fire.
+haven't had a chance to use a lot of Go. JS/node can still go die in a fire.
 
 In addition to the links in the footer there are some places I visit:
 
@@ -60,7 +60,6 @@ In addition to the links in the footer there are some places I visit:
   * [kickstarter](https://www.kickstarter.com/profile/1907362337)
   * [wink's soup](http://wink.soup.io/) - *abandoned, because...*
   * [wink's multiplex](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
-  * [wink's pants](http://pants.f5n.de/)
   * No Instagram, Flickr, WhatsApp, and app.net is dead
 
 ### About this website

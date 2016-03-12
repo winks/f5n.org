@@ -30,6 +30,7 @@ Over the years I've been involved in some projects, here's a quick summary:
   * Occasionally trying to clear the PHP bug tracker by diagnosing and (sometimes) bugfixing
   * Been active in the [Serendipity][] community for a while
   * Helping out with [phpMyFAQ][] development
+  * I'm the poor soul trying to triage the windows bugs in [leiningen][]
 
 [github]: https://github.com/winks
 [bitbucket]: https://bitbucket.org/wink
@@ -43,5 +44,6 @@ Over the years I've been involved in some projects, here's a quick summary:
 [izlude.de]: http://izlude.de
 [euroro]: http://euro-ro.net
 [phpMyFAQ]: http://www.phpmyfaq.de
+[leiningen]: http://leiningen.org
 
 [Serendipity]: http://s9y.org

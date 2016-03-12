@@ -37,5 +37,8 @@ watch: regen
 rsync: regen fixstuff
 	rsync -av --delete public/ ../public
 
+beta: regen fixstuff
+	rsync -av --delete public/ ../../beta.f5n.org/public
+
 lastweek:
 	./scripts/lastweek.sh
