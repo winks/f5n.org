@@ -58,6 +58,13 @@ copy/paste some info from various sources together.
   * [The Life Aquatic with Steve Zissou](http://www.imdb.com/title/tt0362270/)
   * [The Santa Clause](http://www.imdb.com/title/tt0111070/)
   * [Almanya - Willkommen in Deutschland](http://www.imdb.com/title/tt1630027/) (German, [DVD](http://www.amazon.de/dp/B004UJ3FP4/))
+  * [Cloud Atlas](http://www.imdb.com/title/tt1371111/)
+  * [The Great Gatsby](http://www.imdb.com/title/tt1343092/)
+  * [The Hobbit: The Desolation of Smaug](http://www.imdb.com/title/tt1170358/)
+  * [Les Misérables](http://www.imdb.com/title/tt1707386/)
+  * [Frozen](http://www.imdb.com/title/tt2294629/)
+  * [Hansel & Gretel: Witch Hunters](http://www.imdb.com/title/tt1428538/)
+
 
 ### TV Series
 

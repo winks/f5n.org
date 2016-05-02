@@ -61,7 +61,6 @@ In the spirit of "Release early, release often" I am pushing this out on New Yea
   * [The Monuments Men](http://www.imdb.com/title/tt2177771/) (Cinema)
   * [Words and Pictures](http://www.imdb.com/title/tt2380331/) (Cinema)
   * The Dark Knight Trilogy ([1](http://www.imdb.com/title/tt0372784/) [2](http://www.imdb.com/title/tt0468569/) [3](http://www.imdb.com/title/tt1345836/), DVD)
-  * [Frozen](http://www.imdb.com/title/tt2294629/) (Cinema)
   * Star Wars Episode IV-VI (Cinema, on May 4th) *just awesome on the big screen*
   * [Scott Pilgrim vs. the World](http://www.imdb.com/title/tt0446029/) (DVD)
   * [Serenity](http://www.imdb.com/title/tt0379786/) (DVD) *I had never watched the movie, only the tv series*
@@ -69,6 +68,9 @@ In the spirit of "Release early, release often" I am pushing this out on New Yea
   * [Gattaca](http://www.imdb.com/title/tt0119177/) (Stream) *about time, very good*
   * [The Polar Express](http://www.imdb.com/title/tt0338348/) (Stream)
   * [Catch me if you can](http://www.imdb.com/title/tt0264464/) (Stream) *halfway in, it stopped playing. Will finish soon.*
+  * [Green Lantern](http://www.imdb.com/title/tt1133985/) (Stream)
+  * [Scott Pilgrim vs. the World](http://www.imdb.com/title/tt0446029/) (DVD)
+  * [The Hobbit: The Battle of the Five Armies](http://www.imdb.com/title/tt2310332/)
 
 
 ### TV series I've (re-)watched

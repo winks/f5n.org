@@ -10,7 +10,7 @@ MON=$(date +%m)
 if [ "$MON" -lt 10 ]; then
     MON="0${MON}";
 fi
-DAY=""`expr $(date +%d) - 1`
+DAY=`expr $(date +%d) - 1`
 if [ "$DAY" -lt 10 ]; then
     DAY="0${DAY}";
 fi
