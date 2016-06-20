@@ -6,11 +6,11 @@ if [ "$LASTWEEK" -lt 10 ]; then
     LASTWEEK="0${LASTWEEK}";
 fi
 YEAR=$(date +%Y)
-MON=$(date +%m)
+MON=`expr $(date +%m) + 0`
+DAY=`expr $(date +%d) - 1`
 if [ "$MON" -lt 10 ]; then
     MON="0${MON}";
 fi
-DAY=`expr $(date +%d) - 1`
 if [ "$DAY" -lt 10 ]; then
     DAY="0${DAY}";
 fi
