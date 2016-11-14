@@ -20,3 +20,11 @@ Many of those links are from [Hacker News](http://news.ycombinator.com),
 Maybe I'll post the months prior to November 2011 in monthly sets, but probably not.
 
 Oh, and there's a separate feed for it: [The Stack](/stack/atom.xml).
+
+**Update 2016-11-09:** I'm always interested in more link dumps for various topics.
+
+So here's a list of related lists. (How meta.)
+
+  * [trivium](http://chneukirchen.org/trivium) is still going strong
+  * [fogus](http://blog.fogus.me) has been posting links for a while now
+  * [R.I.Pienaar](http://us14.campaign-archive1.com/home/?u=48a10a5d8254d034473c9ca1c&id=38d0f6d5e9) recently started, sadly it's a newsletter
