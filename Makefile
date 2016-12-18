@@ -2,6 +2,11 @@ HUGO?='hugo'
 SASS?='sass'
 CSSMIN?="$${HOME}/bin/cssmin"
 
+
+all: regen fixstuff rsync
+
+beta: regen fixstuff rsync-beta
+
 clean:
 	rm -rf public/*
 	rm -rf public/.*
@@ -34,11 +39,11 @@ reserve: regen fixstuff
 watch: regen
 	${HUGO} server -D -b f5n.org --watch
 
-rsync: regen fixstuff
+rsync:
 	rsync -av --delete public/ ../public
 
-beta: regen fixstuff
+rsync-beta:
 	rsync -av --delete public/ ../../beta.f5n.org/public
 
 lastweek:
-	./scripts/lastweek.sh
+	bash ./scripts/lastweek.sh
