@@ -47,3 +47,7 @@ rsync-beta:
 
 lastweek:
 	bash ./scripts/lastweek.sh
+
+revert:
+	mv lastrun.txt lastrun-reverted.txt
+	cp lastrun-old.txt lastrun.txt

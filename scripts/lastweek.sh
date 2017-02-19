@@ -33,6 +33,8 @@ fi
 cp ${BASEDIR}/lastrun.txt ${BASEDIR}/lastrun-old.txt
 php ${BASEDIR}/scripts/dump-pinboard.php ${NUM} > ~/tmp/dump.txt
 
+NEWDIR=$(dirname ${NEWFILE})
+[ -d ${NEWDIR} ] || mkdir "${NEWDIR}"
 cat ${BASEDIR}/scripts/week-template.html > ${NEWFILE}
 
 sed -i -e "s,The Stack - Week XX/YY,The Stack - Week ${LASTWEEK}/${YEAR}," ${NEWFILE}
