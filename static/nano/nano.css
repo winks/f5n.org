@@ -6,6 +6,7 @@ body {
     text-align: center;
     color: #333;
     font-size: 18px;
+    background-color: #eeeeee;
 }
 
 h1 {
@@ -16,14 +17,18 @@ h1 {
     margin-bottom: 0;
 }
 .meta {
-    color: #ddd;
+    color: #ccc;
     font-size: 14px;
 }
-.body {
+div.body {
     font-size: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
 }
 #tweet {
-    width: 400px;
+    width: 600px;
     margin: auto;
     text-align: center;
 }
