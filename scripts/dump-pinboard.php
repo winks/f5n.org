@@ -118,7 +118,7 @@ $fix_tags = function ($tag) {
         'virtualenv',
     );
     if (in_array(strtolower($tag), $lower)) {
-        #return strtolower($tag);
+        return strtolower($tag);
     }
     return ucfirst(strtolower($tag));
 };
