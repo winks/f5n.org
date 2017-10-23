@@ -58,6 +58,7 @@ $fix_tags = function ($tag) {
         'paas' => 'PaaS',
         'plt' => 'PLT',
         'postgresql' => 'Postgres',
+        'raspberrypi' => 'RaspberryPi',
         'rethinkdb' => 'RethinkDB',
         'scifi' => 'Science Fiction',
         'starwars' => 'Star Wars',
@@ -98,10 +99,12 @@ $fix_tags = function ($tag) {
         'sat',
         'scm',
         'ssh',
+        'sql',
         'ssl',
         'stm',
         'uefi',
         'unix',
+        'ux',
         'vim',
         'vpn',
         'wtf',
@@ -124,8 +127,11 @@ $fix_tags = function ($tag) {
 };
 function fix_title($s) {
     $meh = array(
-        ' - YouTube',
+        ' — Bitbucket',
         ' · GitHub',
+        ' - Motherboard',
+        ' - The New York Times',
+        ' - YouTube',
     );
     foreach ($meh as $m) {
         if (substr($s, (0 - strlen($m))) == $m) {
@@ -145,14 +151,25 @@ foreach ($json as $item) {
         continue;
     }
     $slug = ucfirst(strtolower(preg_replace('([^A-Za-z0-9]+)','', $item['d'])));
+    $slug = substr($slug, 0, 30) . rand(100, 999);
     if (substr($item['d'], 0, 10) == 'Twitter / ') {
         array_unshift($item['t'], '_from_twitter');
     }
     $item['d'] = fix_title($item['d']);
-    $item['t'] = array_map('ucfirst', $item['t']);
     $item['t'] = array_map($fix_tags, $item['t']);
+
+    $item['text'] = '';
+    $url_gh = 'https://github.com/';
+    if (substr($item['u'], 0, strlen($url_gh)) == $url_gh) {
+        $parts = explode(':', $item['d'], 2);
+        if (count($parts) == 2) {
+            $item['d'] = $parts[0];
+            $item['text'] = ' - ' . trim($parts[1]);
+        }
+    }
+
     $k = implode('/', $item['t']);
-    $v = sprintf("[%s][%s]\n\n[%s]: %s\n\n", $item['d'], $slug, $slug, $item['u']);
+    $v = sprintf("[%s][%s]%s\n\n[%s]: %s\n\n", $item['d'], $slug, $item['text'], $slug, $item['u']);
     if (!array_key_exists($k, $items) || !is_array($items[$k])) {
         $items[$k] = array();
     }
@@ -164,7 +181,7 @@ uksort($items, function($a, $b){
 });
 
 foreach ($items as $k => $v) {
-    printf("### %s\n\n", ucfirst($k));
+    printf("### %s\n\n", $k);
     array_map(function ($x) {
         printf(" - %s\n\n", $x);
     }, $v);
