@@ -79,6 +79,7 @@ $fix_tags = function ($tag) {
         'c',
         'c++',
         'cap',
+        'ci',
         'cms',
         'css',
         'fosdem',

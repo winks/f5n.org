@@ -6,7 +6,7 @@ date = 2017-02-19T20:42:00Z
 
 TWO new posts on the same day? Something must be wrong.
 
-When I closed up my old blogs and moved to this domain I made the descision
+When I closed up my old blogs and moved to this domain I made the decision
 to not write whatever came to my mind anymore, but more planned stuff and also
 bigger posts, not just one-liners. I don't think it was a conscious decision,
 it was more a shift because I hadn't posted to much any more anyway - so I
