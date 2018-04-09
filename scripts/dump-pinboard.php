@@ -34,6 +34,7 @@ file_put_contents($lastrun, $line);
 $fix_tags = function ($tag) {
     $special = array(
         'anigif' => 'Animated GIF',
+        'bigdata' => 'Big Data',
         'c-lang' => 'C',
         'clojurescript' => 'ClojureScript',
         'devops' => 'DevOps',
@@ -48,6 +49,8 @@ $fix_tags = function ($tag) {
         'ipv6' => 'IPv6',
         'javascript' => 'JavaScript',
         'mysql' => 'MySQL',
+        'netbsd' => 'NetBSD',
+        'nixos' => 'NixOS',
         'ocaml' => 'OCaml',
         'openbsd' => 'OpenBSD',
         'opengl' => 'OpenGL',
@@ -103,6 +106,7 @@ $fix_tags = function ($tag) {
         'sql',
         'ssl',
         'stm',
+        'tdd',
         'uefi',
         'unix',
         'ux',
@@ -116,9 +120,11 @@ $fix_tags = function ($tag) {
         return strtoupper($tag);
     }
     $lower = array(
+        'i3',
         'make',
         'rsync',
         'tmux',
+        'strace',
         'virtualenv',
     );
     if (in_array(strtolower($tag), $lower)) {
