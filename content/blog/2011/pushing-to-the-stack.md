@@ -11,7 +11,7 @@ For a while I've been annoying my colleagues with random links I've found
  we've talked about. Maybe they're not that random after all, but the infamous
  mails titled "Linkdump" might be useful to someone, so I've started
  [The Stack](/stack), where I'll hopefully manage to push a list of links
- every week, starting with last week, [Week 44/2011](/stack/2011/week-44).
+ every week, starting with last week, [Week 44 / 2011](/stack/2011/week-44).
 
 Many of those links are from [Hacker News](http://news.ycombinator.com),
  and some inspiration is taken from [the left fold](http://www.foldl.org)

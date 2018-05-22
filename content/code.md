@@ -39,7 +39,7 @@ Over the years I've been involved in some projects, here's a quick summary:
 [media_mogilefs]: https://github.com/winks/media_mogilefs
 [cinder]: https://github.com/winks/cinder
 [padawan]: https://github.com/winks/padawan
-[phpmd]: https://github.com/manuelpichler/phpmd
+[phpmd]: https://github.com/phpmd/phpmd
 
 [izlude.de]: http://izlude.de
 [euroro]: http://euro-ro.net
