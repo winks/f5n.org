@@ -24,7 +24,7 @@ So this is kind of a 17 year anniversary - because I have no clue when I
 my guess is 1999 as I found another website that apparently went live in '99 -
 but that first entry talks about a new design and porting content. Sadly the
 oldest snapshot on archive.org is also from September 2000 and it has no
-content at all - so I just don't know when I moved to that domain and I alsa
+content at all - so I just don't know when I moved to that domain and I also
 don't remember if I was already blogging on that Geocities website I had
 before.
 
