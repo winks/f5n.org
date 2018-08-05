@@ -1,4 +1,4 @@
-baseurl = "http://f5n.org/"
+baseurl = "https://f5n.org"
 languageCode = "en-us"
 title = "f5n"
 theme = "f5norg"
