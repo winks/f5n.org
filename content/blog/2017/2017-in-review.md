@@ -5,8 +5,7 @@ date = 2018-01-14T21:00:00Z
 +++
 
 These review posts have proven incredibly useful when looking up stuff, so I'll continue this tradition.
- ([2016](/blog/2016/2016-in-review/)/[2015](/blog/2015/2015-in-review/)/
-[2014](/blog/2014/2014-in-review/)/[2013](/blog/2014/2013-in-review/))
+ ([2016](/blog/2016/2016-in-review/)/[2015](/blog/2015/2015-in-review/)/[2014](/blog/2014/2014-in-review/)/[2013](/blog/2014/2013-in-review/))
 
 
 A bit late this year (last year?) but before it gets too weird:
@@ -30,7 +29,7 @@ Again not much in the sense of vacation and thus not much reading done.
   * [Ready Player One](https://www.amazon.de/gp/product/B005CVWWJY/) (Ernest Cline) - *pretty good, but a little pop-culture heavy, even for me*
   * [The Bloodline Feud - A Merchant Princes Omnibus](https://www.amazon.de/dp/B00C2T56II/) (Charles Stross) - *pretty good, should grab the sequels*
   * [The Graveyard Book/Coraline/Fortunately the Milk](https://www.amazon.de/gp/product/0062379828/) (Neil Gaiman) - *Coraline was very good, the other two... well, children's books.*
-  * [Accelerated C++](https://www.amazon.de/dp/020170353X/) (Koenig/Moo) - *Pretty good introduction for people who know other languaged I'd say*
+  * [Accelerated C++](https://www.amazon.de/dp/020170353X/) (Koenig/Moo) - *Pretty good introduction for people who know other languages I'd say*
 
 
 ### The pile of shame - books I wanted to read
