@@ -18,7 +18,7 @@ $items  = array();
 
 if (is_readable($lastrun)) {
     $last = file_get_contents($lastrun);
-    $last = split(';', $last);
+    $last = explode(';', $last);
     $last = array_map('trim', $last);
     $lastDate = $last[0];
     $lastTs   = $last[1];
