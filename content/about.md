@@ -74,7 +74,7 @@ In addition to the links in the footer there are some places I visit:
 
 ### About this website
 
-This awe-inspiring website was originally made with [Hyde][] and [Vim][].
+This awe-inspiring website was originally made with [Hyde][]([code][Hyde2]) and [Vim][].
 Both choices were to a small degree inspired by posts by [Steve Losh][sjl],
 although I've had read about Hyde before and had used Vim for ages.
 But in both cases his excellent articles tipped the point.
@@ -107,7 +107,8 @@ external embeds, and webserver logs are deleted after a day.
 
 [lmu]: http://www.ifi.lmu.de
 
-[Hyde]: http://ringce.com/hyde
+[Hyde]: http://web.archive.org/web/20111222213258/http://ringce.com/hyde
+[Hyde2]: https://github.com/hyde/hyde-old
 [Vim]: http://www.vim.org
 [sjl]: http://stevelosh.com
 [Django]: http://djangoproject.com

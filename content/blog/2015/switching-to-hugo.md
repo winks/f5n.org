@@ -27,6 +27,6 @@ and the validator doesn't complain either.
 So that's it - nothing new besides a few small layout changes and hopefully
 more posts in the future.
 
-[Hyde]: http://ringce.com/hyde
+[Hyde]: http://web.archive.org/web/20111222213258/http://ringce.com/hyde
 [0.5.3]: https://github.com/lakshmivyas/hyde
 [Hugo]: http://gohugo.io

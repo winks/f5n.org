@@ -15,5 +15,5 @@ The result: this.
 The future: unclear.
 
 [Blueprint]: http://www.blueprintcss.org/
-[Hyde]: http://ringce.com/hyde
+[Hyde]: http://web.archive.org/web/20111222213258/http://ringce.com/hyde
 [Sass]: http://sass-lang.com/
