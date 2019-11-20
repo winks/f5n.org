@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Tools for Windows: 2019 edition"
-date = 2019-11-18T09:00:00Z
+date = 2019-11-18T17:00:00Z
 +++
 
 Despite never speaking very highly of it, Windows is still the OS of choice for
