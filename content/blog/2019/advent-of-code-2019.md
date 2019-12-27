@@ -5,7 +5,7 @@ date = 2019-12-27T21:45:00Z
 +++
 
 
-This is my first time taking part in the [advent of code](https://adventofcode.com), although I had heard about it earlier.
+This is my first time taking part in the [Advent of Code](https://adventofcode.com), although I had heard about it earlier.
 
 At first i thought I didn't have time, so I didn't start on day 1.
 Apparently I first committed something on day 3, and my solutions for day 1 and 2 show > 24h for solving.
@@ -85,12 +85,13 @@ First time not having fun at all.
 ## Day 11 - Space Police
 
 Oh yeah, that was a fun day.
-I had broken my VM and had to use someone else's to write the actual day 11 code.
-https://github.com/winks/adventofcode/commit/9247215a10239e6cfc6f7d43648ad4b169d737c1
+I had broken my VM and had to use [someone else's][day11vmbroke] to write the actual day 11 code.
 The solution went surprisingly quick. Fixed my VM on day 13.
 Also pretty close in spirit to day 08, imho.
 
 **intcode part 5**
+
+[day11vmbroke]: https://github.com/winks/adventofcode/commit/9247215a10239e6cfc6f7d43648ad4b169d737c1
 
 ## Day 12 - The N-Body Problem
 
@@ -218,8 +219,8 @@ After a while of being astonished I asked for someone else's input with an
 exact location of an item and tried that - same result.
 That means I had a bug in my IntCode VM that did not trigger on Day 09,
 Day 21, or today - with the exceptions of the items.
-I was a little frustrated after a while and asked on Reddit, then got back to
-my C++ IntCode VM and tried that.
+I was a little frustrated after a while and asked on [Reddit][redditday25bug],
+then got back to my C++ IntCode VM and tried that.
 Sadly (obviously) it still had the other weird bug, the one that surfaced on
 Day 21 and which prompted the rewrite, and it kept crashing.
 But after a while I fixed those bugs and could finally walk through my rooms,
@@ -231,6 +232,8 @@ for Day 25 Part 2, is only awarded if you have 49 stars, so everything solved.
 Apparently that's the case every year...
 
 **intcode part 11**
+
+[redditday25bug]: https://old.reddit.com/r/adventofcode/comments/eff63z/2019_day_25_i_have_the_weirdest_bug_no_items_at/
 
 ## Day 26 and beyond
 
@@ -364,6 +367,39 @@ Not trying to reinvent everything, but at least only porting my own code.
   * **TypeScript**
     * Only ever wrote a few lines at work, it seems to be pretty usable. Definitely want to use it more.
 
+## Languages that didn't make it
+
+  * JavaScript (21-25)
+    * Had done TypeScript - so... why?
+  * Ocaml (21-25)
+    * Just didn't have the time to dig into it again, I'm a little sad :(
+  * Pony (21-25)
+    * Skimmed the manual, looked a little too complicated for this
+  * Fennel (21-25)
+    * It looks nice but I have quite a little respect for new (to me) functional languages
+  * Kotlin (21-25)
+    * the only language where I gave up instantly, as nothing worked out of the box
+    * the compiler flags in the tutorial were all unknown
+    * `import java.io.File` - paraphrased: "Java? Who dis?"
+  * Scheme (21-25)
+    * Was quite at the bottom of the list, simply didn't make it to 25
+  * Racket
+    * Simply forgot to add it to the list
+  * LOLCODE, Brainfuck, etc.
+    * Just not a fan, even *I* think it's wasted time
+  * Scala
+    * just nope
+  * Haskell / PureScript
+    * I suck so bad at this, but I'd actually think about it
+  * Pascal / Delphi
+    * Maybe worth revisiting after 25 years. I didn't like it.
+  * Basic
+    * This might actually be fun.
+  * F#
+    * Does this even run on Linux? Worth investigating
+  * C#
+    * Apparently not a bad language, but the entry barrier is too high for this event
+
 ## The end
 
 Ok, so this is how I spent most of my spare time in December 2019.
@@ -430,6 +466,8 @@ Day       Time   Rank  Score       Time   Rank  Score
   2       >24h  37905      0       >24h  41205      0
   1       >24h  56901      0       >24h  51381      0
 </pre>
+
+<p>&nbsp;</p>
 
 That's 45 of 49 stars, of which I got 44 including the submission of
 25.1 - the official last puzzle. One day is missing completely, and two days
