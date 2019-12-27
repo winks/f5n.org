@@ -17,7 +17,7 @@ At 866 EUR without graphics card I'd call that pretty cheap.
 
 Hardware I didn't replace:
 
- * ASUS ROG Strix [RX470][asusrx479], from 2016
+ * ASUS ROG Strix [RX470][asusrx470], from 2016
  * Roccat Kone EMP
  * Logitech G710+ MX Brown
  * Dell U2715H 27"
