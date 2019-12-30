@@ -13,13 +13,19 @@ Apparently I first committed something on day 3, and my solutions for day 1 and 
 My goal was to use C++ with the stdlib because all I ever do at work is Qt and so I'm not really good with standard C++.
 But I also thought it could be neat to try a few languages.
 
+TLDR: code is [on github](https://github.com/winks/adventofcode/2019)
+
+I don't aim to describe the problems, there's no plan to remove them from the site, read them there :)
+
 ## Day 1 - The Tyranny of the Rocket Equation
 
 Easy start, don't remember if I did it in C++ first (probably), but I also did a solution in Crystal (part 1 and 2 in both languages).
 
 ## Day 2 - 1202 Program Alarm
 
-Now this was a bit of a surprise, building a virtual machine. Did this in C++ first, later added a TypeScript version for part 1 and 2, although I guess solving part 2 via brute force in a shell also works.
+Now this was a bit of a surprise, building a virtual machine.
+Did this in C++ first, later added a TypeScript version for part 1 and 2, although I guess solving part 2 via brute force in a shell also works.
+Also I would later rewrite it in Java because of reasons that will become clear.
 
 **intcode part 1**
 
@@ -34,7 +40,12 @@ but I did it (after many hours of learning just how inflexible arrays in bash ar
 
 Used Python3 for this one, solved it in reasonable time.
 Later did a Tcl version of part 1 and a PHP version of part 2 (on day 7).
-Much later added part 2 in Tcl and part 1 in PHP (day 24)
+Much later added part 2 in Tcl and part 1 in PHP (day 24).
+In retrospect, this is the first day where I noticed 100% overengineering of my solution.
+I added *all* the (un)necessary boundary checks and made this work for basically all inputs,
+whereas other people just solved the problem in < 5 minutes. Also surprisingly the
+Tcl version was really slow (5s) because of this and with a little restructuring
+and making it easier I brought it down to 2s in a few minutes.
 
 ## Day 5 - Sunny with a Chance of Asteroids
 
@@ -47,6 +58,8 @@ Adding instructions to the intcode VM, did part 1 in the morning and part 2 on l
 Used Python again and struggled for quite a bit, as I was traversing the graph in the wrong direction.
 After some hints to try the other direction it went kind of quick. Part 2 solved 16 min after part 1, record time.
 Also tried to rewrite in Clojure, but as of day 27, still not 100% done with part 1 (it's buggy).
+That was finally fixed on day 28, and again I am a bit surprised how concise and
+readable the Clojure solution is, it's just that I need hours to arrive there.
 
 ## Day 7 - Amplification Circuit
 
@@ -64,11 +77,14 @@ Then did a Common Lisp version that surprisingly only took less than 4h (going b
 Looking back this was one of my favourite problems. Not too hard, not too fiddly.
 But also not a real walk in the park. Also much more to what I am used to code,
 compared of some of the other days that were *really* abstract for me.
+Doing this in D later on Day 29 took a little longer than expected mostly
+because of off-by-one errors, they're my Kryptonite.
 
 ## Day 9 - Sensor Boost
 
 OK, no idea why exactly I didn't solve this until the 11th, but I think it was
-because I was out with friends on day 9 and day 10. C++ again.
+because I was out with friends on day 9 and day 10 and didn't get up at 6 or 7
+to have a go before work. C++ again.
 I would later rewrite the day 9 version of the intcode VM in Java (for day 21)
 because I wasn't happy with the software architecture and apparently had some bugs.
 It took 2h, should've done that earlier, no matter in what language.
@@ -79,7 +95,8 @@ It took 2h, should've done that earlier, no matter in what language.
 ## Day 10 - Monitoring Station
 
 Another slow solve, done on day 13 in Python after spending a lot of hours
-searching for ideas and going in the wrong direction.
+searching for ideas and going in the wrong direction, trying to grab all vectors,
+then checking if they are on the same line. This should work, but it didn't.
 First time not having fun at all.
 
 ## Day 11 - Space Police
@@ -108,7 +125,7 @@ Breakout! That was awesome. C++.
 ## Day 14 - Space Stoichiometry
 
 Used Python and again hit some sort of road block until I got a clue,
-again the solution was to start from the other side.
+again the solution was to start from the other side and not build a tree.
 My solution was good for part 1, but very, very slow.
 So again I borrowed someone's part 1 solution in order to be able to do part 2.
 Half-cheating, maybe.
@@ -122,7 +139,7 @@ I totally failed at BFS.
 I don't like mazes and this was the first time I ever tried to write path-finding code.
 Not fun, not my thing.
 Still managed to solve part 1 with luck and then manual counting of steps on the discovered map.
-Part 2 is unsolved as of day 27.
+Part 2 is unsolved as of day 30.
 C++ again.
 
 **intcode part 7**
@@ -134,6 +151,8 @@ I think I actually managed to cycle to work while it ran and then also started i
 Part 2 was a lot harder, spent the whole evening on this but I had a good idea in the end.
 I did have to look up someone else's solution to fix an off-by-one error.
 Still counts as solving it on my own, I guess, I didn't change anything meaningful in my code.
+Interestingly I found the solution to the problem by manually writing out the
+results of the example in a text editor and looking for patterns. It helped.
 
 ## Day 17 - Set and Forget
 
@@ -150,14 +169,15 @@ on a sheet of paper. Good enough for me.
 
 ## Day 18 - Many-Worlds Interpretation
 
-Mazes again :( Tried in Python (my most productive language I guess) but still unsolved as of day 27.
+Mazes again :( Tried in Python (my most productive language I guess) but still unsolved as of day 30.
 
 ## Day 19 - Tractor Beam
 
 This was a fun one.
 Started very late in the evening because I was sick that day and had slept for
 ~16h but it didn't take really long to solve part 1, and then I even managed
-to solve part 2, submitted my result and went straight back to sleep. Would not recommend.
+to solve part 2, submitted my result and went straight back to sleep.
+Would not recommend, took a while to even reproduce the results a few days later :P
 
 **intcode part 9**
 
@@ -175,7 +195,8 @@ I was asking people how I should jump over 8 wide holes and the widely
 accepted answer was that there should only be 1-3 wide holes.
 Quickly rewrote the VM, came to the part where you need to do the Boolean
 math and kinda failed.
-Could've done without the shortening I guess... Had to look up the solution.
+Could've done without the manual calc, De Morgan's laws, etc, I guess...
+Had to look up the solution in the end.
 But at least that gave me enough ideas to solve most of part 2 on my own.
 So this was done in Java, actually.
 
@@ -183,25 +204,30 @@ So this was done in Java, actually.
 
 ## Day 22 - Slam Shuffle
 
-Finally felt confident enough to use Rust, and managed to solve part 1 after 2h.
+Finally felt confident enough to use Rust, and managed to solve part 1 after just 2h.
 Part 2 proved to be trickier, really, really tricky indeed.
 It was to be known as the mathiest problem of this year and in the end I gave
 up and copied a solution. I am 100% sure I would've never discovered this.
 
 ## Day 23 - Category Six
 
-Got up at 6, used my shiny new Java VM, made a few stupid mistakes, still managed to get my first place under 1000 after 1h 57min.
-And then I totally messed up part2 and only managed to finish it in the evening after rewriting my code completely for 3 times.
-It was too easy to be true... Started porting my Day 10 code to Julia and finished part 1.
+Got up at 6, used my shiny new Java VM, made a few stupid mistakes,
+still managed to get my first place under 1000 after 1h 57min.
+And then I totally messed up part 2 and only managed to finish it in the
+evening after rewriting my code completely for 3 times.
+It was too easy to be true...
+In the evening I tarted porting my Day 10 code to Julia and finished part 1.
 
 **intcode part 10**
 
 ## Day 24 - Planet of Discord
 
-Oh, Game of Life. Not sure I ever did one before. Part 1 was pretty easy and besides a few stupid mistakes it went smooth.
+Oh, Game of Life. Not sure I ever did one before.
+Part 1 was pretty easy and besides a few stupid mistakes it went smooth.
 First submission in under an hour leaderboard time, ~49 minutes after getting up, rank 848.
 This reminded me of Day 20 and so I had a solution after 2:32h, leading me to rank 670.
-Had some time, so did 4.1 in PHP, 4.2 in Tcl and started 22.1 in C. Oh, and 1.1 + 1.2 in PowerShell.
+Had some time, so did 4.1 in PHP, 4.2 in Tcl and started 22.1 in C.
+Oh, and 1.1 + 1.2 in PowerShell.
 
 
 ## Day 25 - Cryostasis
@@ -240,6 +266,9 @@ Apparently that's the case every year...
 As I'm writing this on the 27th, I've finished a lot of TODOs but still have a
 few things that I want to finish up before I end this chapter.
 
+When I say "VM" - I do this knowing that VM may not be 100% the correct definition.
+It's an interpreter of machine instructions for a made up computer system.
+
 #### DONE after the event
 
   * Grabbed a 22.2 implementation, I have zero interest to solve this on my own
@@ -259,7 +288,7 @@ few things that I want to finish up before I end this chapter.
   * Solve 15.2
   * Solve 20.2 (aka fix my WIP code and see if it works)
   * Solve 18.1 + 18.2
-  * Fix 6.1 in Clojure, then do 6.2
+  * Fix 6.1 in Clojure, then do 6.2 (done on day 28)
   * Get that damn 50th star :)
 
 What they all have in common (Exception: Day 06) is that they are
@@ -273,9 +302,9 @@ languages where I might redo another day in that language, with my own code.
 Not trying to reinvent everything, but at least only porting my own code.
 
   * Perl and Day 14, but it's not fun to use :P
-  * D and Day 16. Might pick an easier day, but D is really ok.
+  * D and Day 16. Might pick an easier day, but D is really ok. (Did day08 on the 29th)
   * Rust and Day 22. I think I aced part 1, but not part 2.
-  * C and Day 22. Again Part 2 is not my code, so I want to do another day in C.
+  * C and Day 22. Again Part 2 is not my code, so I want to do another day in C. (Did day06 on the 28th)
   * Have a go (no pun intended) at the Day 09 Intcode VM in a few more languages and setups.
 
 #### Cancelled TODOs
@@ -287,12 +316,12 @@ Not trying to reinvent everything, but at least only porting my own code.
 ## Languages used:
 
   * Bash: day03
-  * C: day22
+  * C: day22, day06
   * C++: 1,2,3,5,7,8,9,11,13,15,17,19,25
   * Clojure: day06
   * Common Lisp: day08
   * Crystal: day01
-  * D: day16
+  * D: day16, day08
   * Go: day12
   * Java: 9, (15), 21, 25
   * Julia: day10
@@ -406,22 +435,25 @@ Ok, so this is how I spent most of my spare time in December 2019.
 I guess by using just one or two languages I could've saved massive amounts of time.
 But where's the fun in that?
 
-There are really a few lessons I took away
+There are really a few lessons I took away, although some were not surprising:
 
   * Read instructions carefully
   * Write 5 lines of a test harness code to quickly run your test inputs
   * Worse is better. Don't even try to structure at first, just solve it
   * Don't even try to compete with the fast people
   * I'm really not quick to code up solutions
-  * I don't think I'm a really good coder, this is not what I do at work
-  * This doesn't have much to do with software engineering, sans a few caveats when extending
-  * Maybe I should really focus more on a few tools
+  * I don't think I'm a really good coder, this micro-problem-solving is not what I do at work
+  * This doesn't have much to do with software engineering, sans a few caveats when extending the intcode vm
+  * Maybe I should really focus more on a few tools over having a broad spectrum
 
-Will I participate again next year? Maybe.
+Will I participate again next year? Maybe, if time allows.
 
 Finally I want to say a huge thanks to the #lobsters-advent IRC channel where we talked a lot about Advent of Code and I got massive help in the
 form of clues or having some stuff checked when it absolutely didn't make sense. Also it's just more fun if you have people to talk to.
 In the end i think I finished 14th on our leaderboard, with 3 people from the channel way ahead of me, but I'm totally happy with my result.
+
+And of course thanks to Eric for doing this. I watched the talk and it seems to
+be quite some work. Also thanks to the subreddit, it's a good one.
 
 ## Some links:
 
