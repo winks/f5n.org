@@ -1,7 +1,7 @@
 +++
-draft = true
+draft = false
 title = "2019 in review"
-date = 2019-12-31T15:00:00Z
+date = 2019-12-31T11:00:00Z
 +++
 
 These review posts have proven incredibly useful when looking up stuff, so I'll continue this tradition.
@@ -26,10 +26,14 @@ These review posts have proven incredibly useful when looking up stuff, so I'll 
 
 ### Books I've read
 
-Worst year ever, again. Zero novels.
+Worst year ever, again. Zero novels. Reading  [Thinking in Systems][bookthinksys] right now.
+
+[bookthinksys]: https://www.amazon.de/Thinking-Systems-Donella-H-Meadows/dp/1603580557
 
 
 ### The pile of shame - books I wanted to read
+
+Same as last year:
 
   * *the two Foundation ones from the 2014 list yet again*
   * [The Dark Tower: The Wind Through the Keyhole](https://www.amazon.de/gp/product/3453410831/)
@@ -40,8 +44,9 @@ Worst year ever, again. Zero novels.
 
   * Thor: Ragnarok - *a bit weird, but ok*
   * Star Wars: Solo - *really good*
-  * The Lord of the Rings - The Fellowship of the Ring - Extended
   * 6 Underground - *ridiculous and funny. mostly ridiculous*
+  * Big Trouble in Little China - *very 80s, but it's really ok*
+  * The Lord of the Rings - The Fellowship of the Ring - Extended
 
 
 ### Movies I didn't manage to watch
@@ -58,7 +63,6 @@ Worst year ever, again. Zero novels.
   * Fantastic Four
   * Straight Outta Compton
   * Logan
-  * Big Trouble in Little China
 
 
 ## TV Series I've (re-)watched
@@ -69,9 +73,9 @@ Worst year ever, again. Zero novels.
 
 ## TV Series I didn't watch
 
-  * Wynonna Earp S2 (Netflix)
-  * The Expanse S2 (Netflix)
-  * The Shannara Chronicles S2 (Prime)
+  * Wynonna Earp S2
+  * The Expanse S2+
+  * The Shannara Chronicles S2
   * Jessica Jones & Luke Cage
 
 
@@ -90,12 +94,19 @@ Worst year ever, again. Zero novels.
   * Amon Amarth - With Oden On Our Side
   * Amon Amarth - Twilight Of The Thunder God
 
+Only one In Flames album missing from my collection now, discovered The Chats,
+and been listening to a lot of Amon Amarth lately.
+
 
 ### Other stuff I bought
 
   * Fenix PD25 Flashlight - *nifty*
   * Gerber Paraframe Mini pocket knife - *went camping, lost it without using it once. doh*
   * [a new computer](/blog/2019/hardware-upgrade)
+  * my first smart home device, a smaho wifi power plug
+  * replaced my Roccat Kone+ mouse with a Roccat Kone EMP, I hope they won't stop making those
+  * first batch of LED light bulbs as my inherited stock of old heatballs was finally used up
+  * bought a slim/small leather wallet after searching for a long time
 
 
 ### Social network usage
@@ -109,7 +120,8 @@ Worst year ever, again. Zero novels.
 
   * IRC - *daily use, default communication channel for many people I communicate with*
   * Matrix - *daily use*
-  * Jabber - *my server was shutdown*
+  * MS Teams - *work stuff, it's not as bad as it sounds, but Slack is better*
+  * Jabber - *server was shutdown, might revisit*
   * Email - *same as usual*
   * Slack - *using two communities, sparingly*
   * WhatsApp - *replaced FB messenger*
@@ -122,9 +134,14 @@ Worst year ever, again. Zero novels.
   * Chaos Communication Camp near Berlin in August
 
 
-### Online services
+### (Online) services
 
   * Still subscribed to Netflix and Amazon Prime
+  * stopped using xmpp/jabber, migrated to Matrix
+  * upgraded my mailserver, Ubuntu 14.04 was EOL, I'm using [docker-mailserver][dockermail] now, originally planned to do [mailcow](https://mailcow.email)
+  * upgraded my Neo N54L NAS, it has 8 GB RAM now and runs FreeNAS 11.2-U7 now
+
+[dockermail]: https://github.com/tomav/docker-mailserver
 
 
 ### Programming languages used, roughly in order of hours spent
@@ -145,5 +162,32 @@ Very irregular this year:
   * [ATP](http://atp.fm/) - *I'm not using any Apple products and still listen to these guys sometimes.*
   * some real gaming podcasts, but even less regularly
 
-These keep getting shorter and shorter, maybe the focus on media consumed and used for
+
+### Stuff that kinda worked out
+
+  * write more blog posts: 7 isn't a lot, but it's ok, also wrote elsewhere
+  * get my self-hosted services in shape, trimming unneeded, keep everything updated, etc
+  * <s>learn</s> try out some new programming language(s)
+  * after 2 years I'm no expert in C++, but I can work just fine with it
+
+
+### Stuff I planned to do this year but didn't
+
+  * start properly learning Spanish
+  * write a replacement for my podcast downloader of choice (JuicePortable), because it stopped working
+  * solve the [deployment problem of hobby projects](https://lobste.rs/s/xh5b5n/how_do_you_deploy_your_hobby_web_projects)
+  * add Micropub support for this site. [Started](/blog/2019/looking-at-micropub/) but didn't finish.
+  * do more Rust
+  * do more Clojure
+
+
+### "New Year's Resolutions" aka stuff that would be nice if it would work out
+
+  * be able to read cyrillic letters fluently and practice enough to memorize them
+  * learning from AoC: focus on one or two languages for hobby stuff and get good with it, not just be able to use it and forget stuff all the time
+  * read at least 3 novels this year (starting slow, somehow I lost the enjoyment of reading. Literally lost it, my shelves are full with books I read.)
+  * get my podcast management thing to at least a usable state
+
+
+These lists keep getting shorter and shorter, maybe the focus on media consumed and used for
 communication is not the right angle anymore.
