@@ -457,7 +457,7 @@ be quite some work. Also thanks to the subreddit, it's a good one.
 
 ## Some links:
 
-  * [jjuran](https://github.com/jjuran/adventofcode/tree/master/2019) had to fix the language to solve the problems, that's hardcore
+  * [jjuran](https://github.com/jjuran/adventofcode/tree/master/2019) had to fix the language to solve the problems, that's hardcore. [blog post][jjaoc]
   * [tumdum](https://git.sr.ht/~ttt/aoc2019) had some really clean and readable solutions in Rust
   * [gerikson](http://gerikson.com/blog/comp/Advent-of-Code-2019.html) wrote a nice journal about AoC 2019
   * [gthm](https://github.com/gunnihinn/advent-of-code) inspired my rewrite of the intcode VM
@@ -466,6 +466,9 @@ be quite some work. Also thanks to the subreddit, it's a good one.
   * [kdheepak/awesome-advent-of-code](https://github.com/kdheepak/awesome-advent-of-code) - many repos, all the the languages
   * [bogdanp/awesome-advent-of-code](https://github.com/Bogdanp/awesome-advent-of-code/) - another list
   * [really expansive post about aoc and about solving all problems in Go](https://dhconnelly.com/advent-of-code-2019-retrospective.html)
+
+[jjaoc]: https://www.jjuran.org/2019/12/29/advent-of-code-2019-varyx-postmortem/
+
 
 ## Appendix 1 - My scores
 
