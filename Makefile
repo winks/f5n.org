@@ -24,6 +24,8 @@ css:
 
 generate:
 	${HUGO}
+	cp public/blog/index.xml public/blog/atom.xml
+	cp public/stack/index.xml public/stack/atom.xml
 
 fixstuff:
 	bash ./scripts/hook_final.sh
