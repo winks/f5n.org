@@ -27,7 +27,7 @@ Hardware I didn't replace:
 [hw2012]: /blog/2012/hardware-upgrade
 [ryzen7]: https://www.amd.com/en/products/cpu/amd-ryzen-7-3700x
 [b450m]: https://www.msi.com/Motherboard/B450M-MORTAR-MAX.html
-[baspart]: https://www.crucial.com/usa/en/memory-ballistix-sport-lt
+[basport]: https://www.crucial.com/usa/en/memory-ballistix-sport-lt
 [970evo]: https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m-2-1tb-mz-v7e1t0bw/
 [pp500]: https://www.bequiet.com/en/powersupply/1546
 [definec]: https://www.fractal-design.com/products/cases/define/define-c/black/

@@ -4,24 +4,31 @@ title = "A Static Site Generator"
 date = 2020-01-18T01:40:00Z
 +++
 
-A little while ago I wrote about micropub and this meant I needed a way to integrate dynamic content into this static site.
+### Why?
+
+A little while ago I [wrote about micropub](https://f5n.org/blog/2019/looking-at-micropub/) and this meant I needed a way to integrate dynamic content into this static site.
 
 Of course the easiest way is to just let some dynamic part create a new file (or append to one) in this input folder and then rebuild the website,
-but I didn't find that very elegant. But i looked into it and hugo's data feature and it looked ok.
+but I didn't find that very elegant. But i looked into this (and especially hugo's data feature) and it looked ok, but not great.
 
-Anyway, I tried to upgrade hugo from a 4 year old version and while it worked there were some things that felt needlessly changed and I had to rewrite some
+Anyway, I tried to upgrade hugo from a 4 year old version and while it worked, there were some things that felt needlessly changed and I had to rewrite some
 templates and overall I was a little annoyed at the thousand features I didn't need and the amount of docs to be read.
 
-This was a while ago and a week ago I thought it might be fun to see just how much time and effort it would take to write a static site generator from scratch.
+This was a while ago and a week ago I thought it might be fun to see just how much time and effort it would take to write a static site generator from scratch,
+because for all of the myriad of blog system I'd written in the past, I never wrote a static site generator.
 
-And I think I'm finished now and decided to write a bit about it.
+And I think I'm finished now and decided to write a bit about **[nextgen](https://github.com/winks/nextgen)**.
+
+### Just the facts
 
   * Written in Rust
   * 333 lines of code (plus a few external crates, of course)
   * Fast enough (250 markdown pages in 0.1s)
   * It can build this website kind of identical, not bit by bit but structurally the same
   * It took roughly a week to build it, a few hours each night
+  * seriously, don't use this in its current form
 
+### How it evolved
 
 [The first commit][commit1] still uses a lot of regex parsing, was mostly playing around.
 But the basic flow is the same already and the static asset handling hasn't really changed: Use the [`walkdir`][cwalkdir] crate to look for matching files in a directory and
@@ -30,6 +37,8 @@ copy them to `./public/static`.
 The [`pulldown_cmark`][cpull] crate for Markdown parsing works great.
 
 [The second commit][commit2] introduces the [`tera`][ctera] create for templating, which is similar to Jinja. I tried [`liquid`][cliquid] at first, but it really didn't click.
+
+This is the final form of the [templates](https://github.com/winks/nextgen-themes/tree/master/f5n.org).
 
 [Then][commit3] I introduced sections, which means that for example everything under `/blog/` is grouped under the `blog` section. Also for years I had kinda wondered how
 websites calculate this "takes 5 minutes to read" but never looked it up. Well, hugo has that feature and so I searched a bit and settled on a very basic algorithm.
@@ -59,6 +68,7 @@ This makes it possible to show the latest posts on the index page, in my case th
 
 [And finally][commit15] only the main RSS feed is missing, but the list of pages is already there, so it's easy.
 
+### An overview
 
 And that's how the final program looks:
 
@@ -78,9 +88,17 @@ different types of pages, so there might be a few small bugfixes left, but the g
 replicating all of hugo's features that I actually use is achieved. I don't generate CSS from
 SASS but looking at my Makefile it's not even done by hugo now...
 
+### Next steps?
+
 I'm not sure if I'll switch to `nextgen` or if I will add the features I need for micropub,
 but working with Rust for a few hours made me understand a few things better and I can really
 use the training.
+
+So yes, I do think hugo went a little off the rails in the last few years, but I am still
+very happy with it and I'm thankful it was written, it was the best one I found back then.
+
+But I dreaded updating and so I never did it, for over 4 years. Good thing is that it only
+parses my own content, is not a network service and so I don't need to care about security.
 
 
 [commit1]: https://github.com/winks/nextgen/commit/3c1622f78c6f391af17578e9a12dbc99192f4d61

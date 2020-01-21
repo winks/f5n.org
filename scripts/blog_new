@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+if [ "$1" = "" ]; then
+	echo "Usage: $0 slug"
+	exit
+fi
+
+slug="$1"
+year=$(date +%Y)
+dtx=$(date +%Y-%m-%dT%H:%M:%SZ)
+fname="$(dirname $0)/../content/blog/${year}/${slug}.md"
+
+[ -e "$fname" ] && {
+	echo "File $fname exists."
+	exit 1
+}
+
+cat <<EOF > $fname
++++
+draft = false
+title = "$slug"
+date = $dtx
++++
+
+EOF
+
+echo "Created: $fname"
+exec vim $fname
+
