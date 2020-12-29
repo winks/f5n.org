@@ -13,7 +13,7 @@ Apparently I first committed something on day 3, and my solutions for day 1 and 
 My goal was to use C++ with the stdlib because all I ever do at work is Qt and so I'm not really good with standard C++.
 But I also thought it could be neat to try a few languages.
 
-TLDR: code is [on github](https://github.com/winks/adventofcode/2019)
+TLDR: code is [on github](https://github.com/winks/adventofcode/tree/master/2019)
 
 I don't aim to describe the problems, there's no plan to remove them from the site, read them there :)
 
@@ -29,7 +29,7 @@ Also I would later rewrite it in Java because of reasons that will become clear.
 
 **intcode part 1**
 
-## Day 3 - 1202 Program Alarm
+## Day 3 - Crossed Wires
 
 Only managed to do part 1 on that day (in C++), but I iirc I had coded 1.1, 1.2, 2.1 and 2.2 on the same day.
 I redid part 1 in Nim on day 5, and also solved part 2 in Nim shortly after midnight.
