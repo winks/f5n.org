@@ -5,7 +5,7 @@ date = 2020-12-29T18:00:00Z
 +++
 
 
-This is my second time taking part in the [Advent of Code](https://adventofcode.com), I also wrote about [last year](/blog/2019/advent-of-code-2019/).
+This is my second time taking part in the [Advent of Code](https://adventofcode.com), I also wrote about it [last year](/blog/2019/advent-of-code-2019/).
 
 Using 20 languages was fun, but I didn't want to spend all my spare time on AoC again so I settled on one language, Python.
 
@@ -14,8 +14,8 @@ Again there will be no problem description or complete spoilers, and the code is
 
 ## Day 1 - Report Repair
 
-This shouldn't be too hard but I added a tiny bug which I couldn't for the life of me find, so I hacked up a bash oneline to solve it.
-Part 2 takes 516ms, maybe should add some memoization.
+This shouldn't be too hard but I added a tiny bug which I couldn't for the life of me find, so I hacked up a bash one liner to solve it.
+Part 2 takes 516ms to run, so maybe I should add some memoization.
 
 ## Day 2 - Password Philosophy
 
@@ -23,7 +23,8 @@ I accidentally solved part 2 first by not reading the instructions properly, so 
 
 ## Day 3 - Toboggan Trajectory
 
-Don't think I can say much, but it's the first one this year that uses a "map" with coordinates. Again par
+Don't think I can say much, but it's the first one this year that uses a "map" with coordinates. Parsing to an y/x-array doesn't twist my mind,
+so I usually go the easy route here.
 
 ## Day 4 - Passport Processing
 
@@ -53,7 +54,7 @@ I don't remember much, but it was quick. (7 + 10 mins)
 
 ## Day 10 - Adapter Array
 
-Didn't particularly like this one, and I was pretty sure my part 2 was mostly correct, but I asked someone for help and my solution was indeed 90% correct. (18 + ~45 mins)
+Didn't particularly like this one, and I was pretty sure my part 2 was mostly correct, but I asked someone for help and my solution was indeed 90% correct. (18 + 45 mins)
 
 ## Day 11 - Seating System
 
@@ -67,7 +68,7 @@ Playing around with coordinates, this was fun. I was slower than I had hoped tho
 
 Part 1 was really quick, but I spent ages on part 2. When I was relatively confident that my solution was correct but unbearably slow,
 someone on #lobsters-advent offered help and calculated my input to give me a rough estimate where to start my search, and then it "only"
-ran for 16s instead of probably 16h. Needs some work. (11 mins + ~6h)
+ran for 16s instead of probably 16h. Needs some work. (11 mins + 6h)
 
 ## Day 14 - Docking Data
 
@@ -76,7 +77,7 @@ This is the first day I did not complete, part 1 took like 39 minutes but I didn
 ## Day 15 - Rambunctious Recitation
 
 The description text on this one confused me multiple times, it wasn't the problem so much that was hard, but extracting the specs was. 
-Completion time seems to be 95 mins and 16 mins. Maybe there is a trick to part 2, because mine takes 60s to complete.
+Completion time seems to be 95 minutes and 16 minutes. Maybe there is a trick to part 2, because mine takes 60s to run.
 
 ## Day 16 - Ticket Translation
 
@@ -85,13 +86,13 @@ Part 1 seemed relatively easy again (33 minutes) but I think part 2 took a littl
 ## Day 17 - Conway Cubes
 
 Oh, Game of Life again. Reading my IRC backlog, I was not happy or impressed and decided to only do this after work, not in the morning.
-I didn't take note how long part 1 took, but part2 took ~55mins, so I guess part 1 also took between 30 and 60 mins.
+I didn't take note how long part 1 took, but part 2 took  about 55 minutes, so I guess part 1 also took between 30 and 60 minutes.
 Execution times for these are slow (2s and 96s), so I want to revisit this with one optimization I have in mind.
 
 ## Day 18 - Operation Order
 
 I think the correct solution would be to build a proper parser but I wasn't in the mood for fiddling around with that so I solved it with regex.
-Still took a while because I made a few silly mistakes. Part 2 took an hour.
+Still took a while because I made a few silly mistakes. Part 2 took one hour.
 
 ## Day 19 - Monster Messages
 
@@ -106,34 +107,39 @@ trying part 2 but my head wasn't agreeing on thinking that day, so I didn't fini
 
 ## Day 21 - Allergen Assessment
 
-This took a while because I wasn't using sets. But part 2 only took 7 mins then because I started to clean up p1 instead of reading part 2.
-Should've been less than 5 I guess...
+This took a while because I wasn't using sets. But part 2 only took 7 minutes then because I started to clean up what I had instead of reading part 2.
+Should've been less than 3 I guess...
 
 ## Day 22 - Crab Combat
 
-Part 1 was really easy, 8 mins. But then I looked at part 2 and decided to not waste time on this.
+Part 1 was really easy, 8 minutes. But then I looked at part 2 and decided to not waste time on this.
 
 ## Day 23 - Crab Cups
 
-I took a few detours but finished part 1 in 72 mins. Then in the evening I had an idea for part 2 but wasted hours failing to implement it.
+I took a few detours but finished part 1 in 72 minutes. Then in the evening I had an idea for part 2 but wasted hours failing to implement it.
 I still think my idea is mostly correct, but I need to revisit this.
 
 ## Day 24 - Lobby Layout
 
-Because of a stupid parsing bug I discovered too late part 1 took 66 mins, and because of some bad experience with dicts in python I went the
-very slow but safe route and thus my part 2 takes 15 secs to finish. Solving part2 took 52 mins. Need to revisit this and try one optimization trick.
-Or maybe: remove my pessimization "trick".
+Because of a stupid parsing bug that I discovered too late part 1 took 66 minutes, and because of some bad experience with dicts in python I went the
+very slow but safe route and thus my part 2 takes 15 seconds to finish. Need to revisit this and try one optimization trick.
+Or maybe: remove my pessimization "trick". Solving part 2 took 52 minutes.
 
 ## Day 25 - Combo Breaker
 
-Oh boy, that was the first time in 50 days I was actively mad at the puzzle author. Apparently there were 2 things that came together:
-I didn't read (or understand) the puzzle correctly and so I though I needed to find the subject number and the given was just an example.
-This wouldn't have been so bad because my solution accounted for that (just a loop around everything, slow but correct) - but the second thing
-was that was probably supposed to be "bruteforced" in a sense, and so I simply stopped my generic solution because it took too long to run.
+Oh boy, that day was the first time in 50 days I was actively mad at the puzzle author. Apparently there were two things that came together:
+I didn't read (or understand) the puzzle correctly and so I thought I needed to find the subject number and the given was just an example.
+
+That wouldn't have been so bad because my solution accounted for that (just a loop around everything, slow but correct) - but the second thing
+was that this puzzle was probably supposed to be "bruteforced" to a certain degree, and so I simply stopped my running generic solution
+several times because it took too long to run.
 
 Once I had glanced at a solution because I was annoyed enough I saw that mine was actually correct, so I plugged in the known subject number and
-let it run for 15 sec and had my correct result. Yes, sure it's my own fault, but my algorithm was correct in the first place and I wasted a lot
-of time, only because I didn't want to look at others' solution. Can't measure time, but had I read it correctly, definitely below 1 hour.
+let it run for 15 seconds and had my correct result.
+
+So yes, of course it's my own fault, but my algorithm was correct in the first place and I wasted a lot of time, only because I didn't want to look at others' solution.
+Can't measure time, but had I read it correctly, definitely below 1 hour. Also from what I read I was far from the only problem misunderstanding
+the given number as an example and bruteforcing this one as well, as it's really doable on moderately fast hardware.
 
 
 ## Open TODOs
@@ -147,7 +153,7 @@ of time, only because I didn't want to look at others' solution. Can't measure t
 
 Another year wrapped up, I had a lot of fun again. It was easier than last year,
 but I am super happy I didn't have to spend so much time on getting to roughly the
-same result.
+same result, i.e. 90% completion.
 
 Again, many thanks to the people in #lobsters-advent on Freenode, we had interesting
 discussions, helped some, got help by some and overall had a pretty fun time there, I think.
@@ -159,7 +165,7 @@ A few things I noticed, in no particular order:
   * The examples are tremendously helpful
   * I don't think I'll ever be a really fast competitive coder
   * Some problems were SO MUCH easier because I did last year's puzzles
-  * Python is kinda good for this.
+  * Python is kinda good for this
 
 ## Appendix 1 - My scores
 

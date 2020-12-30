@@ -42,7 +42,7 @@ watch: regen
 	${HUGO} server -D -b f5n.org --watch
 
 rsync:
-	rsync -av --delete --exclude=media/misc public/ ../public
+	rsync -av --delete --exclude=media/misc public/ ares:www/f5n.org/public
 
 rsync-beta:
 	rsync -av --delete public/ ../../beta.f5n.org/public
