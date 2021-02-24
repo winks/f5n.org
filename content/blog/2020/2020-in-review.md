@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "2020 in review"
-date = 2019-12-31T14:30:00Z
+date = 2020-12-31T14:30:00Z
 +++
 
 These review posts have proven incredibly useful when looking up stuff, so I'll continue this tradition.
