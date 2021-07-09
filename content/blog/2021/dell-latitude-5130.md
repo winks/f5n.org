@@ -36,7 +36,7 @@ There are some problems though:
   * if it is on 100% CPU, you can hear the fans
   * the ethernet port is one of those weird ones you have to pry open like a drawer
 
-So coil whine and a wonky docking station, the rest is not really worth mentioning.
+So coil whine and a wonky docking station (K20A001), the rest is not really worth mentioning.
 
 Like on my last work computer I went with [Regolith](https://regolith-linux.org/) via PPA, so
 I have a fully functioning i3 window manager and still some nice desktop environment features.
