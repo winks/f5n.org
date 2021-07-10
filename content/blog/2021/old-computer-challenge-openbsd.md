@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "The Old Computer Challenge and OpenBSD 6.9"
-date = 2021-07-19T00:00:00Z
+date = 2021-07-10T00:00:00Z
 +++
 
 When I read [The Old Computer Challenge](https://dataswamp.org/~solene/2021-07-07-old-computer-challenge.html) I knew this wasn't really for me.
@@ -10,8 +10,10 @@ I'm not doing a lot of personal programming at the moment, and the things I do a
 
 Yes, I admit it, it's mostly playing games that were released when 512 MB RAM weren't the norm any more, or using YouTube (which eats a lot of CPU, I tried it).
 
-But I found the idea interesting nevertheless, and I do have an old laptop here, my first one, actually. It's a hp compaq nx7010 that I bought in 2004 for university,
-it has a nice widescreen 15,4" screen with 1680x1050 resolution, a 1.5 GHz single-core Centrino CPU, and was upgraded to 1.5GB of RAM. And it was really expensive,
+But I found the idea interesting nevertheless, and I do have an old laptop here, my first one, actually.
+
+It's a hp compaq nx7010 that I bought in 2004 for university,
+it has a nice widescreen 15,4" screen with 1680x1050 resolution (ATI Radeon Mobility 9200/ATI Radeon Mobility M9), a 1.5 GHz single-core Centrino CPU, and was upgraded to 1.5GB of RAM. And it was really expensive,
 but I used it for at least 6 years as my main laptop, and I think I really only stashed it away in 2013 when I got my work x230 that I could also use for private stuff.
 
 I had installed OpenBSD 6.2 at some point in 2017, when it was the latest version and since then I hadn't done a lot. I booted it once in a while, I think I even
@@ -25,7 +27,7 @@ So here's a little guide to running OpenBSD on a very old laptop.
 
 I've actually typed up most of this post on the laptop, in vim, although the file is sitting on another computer - but I'm using xterm on ratpoisonon OpenBSD.
 Yes, I do prefer i3, but I won't bother to even change the keybindings, ratpoison seems reallyok out of the box, just ctrl-t is a bit weird.
-And netsurf is fine to check how this post looks as a finished html page.
+And netsurf seems fine to check how this post looks as a finished html page, haven't tried some real web surfing.
 
 
 
@@ -105,6 +107,7 @@ Sadly it didn't change anything, but the fix is actually easy if you RTFM correc
 echo machdep.allowaperture=2 >> /etc/sysctl.conf
 reboot
 ```
+(thank you, helpful people of [r/openbsd](https://old.reddit.com/r/openbsd/comments/ogtl0s/problems_with_startx_69_radeondrm/))
 
 So now I can finally log in to a graphical interface and am greeted by the horrible, horrible `fvwm2`.
 
