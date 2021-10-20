@@ -31,7 +31,7 @@ And netsurf seems fine to check how this post looks as a finished html page, hav
 
 
 
-## The instruction
+## The install instructions
 
 Download the install image file, install69.img from https://www.openbsd.org/faq/faq4.html and write to a USB stick:
 
@@ -66,6 +66,8 @@ or do it permanently:
 UKC> disable inteldrm
 UKC> quit
 ```
+
+## Some configuration
 
 OpenBSD recommends `doas` over `sudo`, so when in Rome, **do as** the Romans do:
 

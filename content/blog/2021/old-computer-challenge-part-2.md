@@ -117,7 +117,7 @@ Windows via ssh, but I could've done it with vim, as I did in the past.
 Many of the typical use cases that other people mentioned are completely
 foreign to me.
 
-Despite writing [lists about windows software in the past](f5nwin),
+Despite writing [lists about windows software in the past][f5nwin],
 there's nothing really innate to working on Windows, actually a lot of the
 stuff is trivial on Linux or BSD and only needs a special Windows solution.
 
