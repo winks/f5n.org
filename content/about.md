@@ -6,45 +6,33 @@ date = 2011-06-18T23:23:23Z
 
 
 
-This is an example of a WordPress page.
+This is the website of Florian Anderiasch, a Software Developer from Munich, Germany. Hi!
 
-Just kidding, but it's been a while that I've written an about page.
-None of them were decent or funny. But I won't stop writing one every few years.
 
 ### About the author
 
-This is the website of Florian Anderiasch, a Software Developer from Munich, Germany. Hi!
-
 I'm going to spare you the details, but most of my time is spent building web
-applications or other software, poking servers, creating open source software,
-playing games or ranting. I rant a lot.
-
-Around fifteen years ago I would have written "About the webmaster".
-
-In the late nineties I might have written "wEbMaSTeR". Well, maybe I did. The
-times they are a-changing. I'm also not wearing any online gaming clan tag in
-front of my nick anymore, nor coding in VB5 or using AOL.
+applications or other software, poking servers, fixing open source software,
+playing games, or ranting. I rant a lot.
 
 The first webpage I put up (on geocities probably) in the summer of '98 started
 a career of creating web apps, enjoying server-side scripting languages and
 loathing javascript.
+I studied Computer Science at
+[Ludwig-Maximilians-Universit&auml;t M&uuml;nchen][lmu] ages ago.
 
-In 2011 I wrote:
+I like programming languages, as can be seen in this post, where I use 20
+different ones to solve the [Advent of Code 2020][aoc2020].
 
-> Nowadays I code PHP for a living, use Java and Python for fun, trying to wrap
-> my head around Ruby, C, Lua and Scala, use bash when I need to and write
-> Javascript when I'm forced to. I've also got a degree in Computer Science from
-> [Ludwig-Maximilians-Universit&auml;t M&uuml;nchen][lmu].
+2021 version:
 
-In 2014 I wrote:
+> I'm writing a mix of Java, C++, and Erlang in my day job.
 
-> The degree's still there, but apart from that I'm writing mostly Python and Lua
-> these days, using a lot more Puppet than is healthy for my sanity, only
-> occasionally work with PHP, even less with JavaScript (whew) and am not
-> actively working on learning new languags, although coming back to Haskell
-> once in a while, played with Racket for a few weeks and on my to-do list as of
-> summer 2014 are: Go, Rust and Julia, maybe Idris. I actually learned a little
-> Ruby in the last year and while not perfect, I see some strengths now.
+In 2018 I wrote:
+
+> I'm not a fan of Go anymore (except for small monitoring checks) and I've been
+> doing C++ since December and I'm actually enjoying it. Not as good as Rust,
+> but a fun new thing for me.
 
 In 2016 I wrote:
 
@@ -53,24 +41,35 @@ In 2016 I wrote:
 > learned some Rust, revisited OCaml after 10 years (it rocks now) and still
 > haven't had a chance to use a lot of Go. JS/node can still go die in a fire.
 
-In 2018 I wrote:
+In 2014 I wrote:
 
-I'm not a fan of Go anymore (except for small monitoring checks) and I've been
-doing C++ since December and I'm actually enjoying it. Not as good as Rust,
-but a fun new thing for me.
+> These days I'm writing mostly Python and Lua,
+> using a lot more Puppet than is healthy for my sanity, only
+> occasionally work with PHP, even less with JavaScript (whew) and am not
+> actively working on learning new languags, although coming back to Haskell
+> once in a while, played with Racket for a few weeks and on my to-do list as of
+> summer 2014 are: Go, Rust and Julia, maybe Idris. I actually learned a little
+> Ruby in the last year and while not perfect, I see some strengths now.
+
+In 2011 I wrote:
+
+> Nowadays I code PHP for a living, use Java and Python for fun, trying to wrap
+> my head around Ruby, C, Lua and Scala, use bash when I need to and write
+> Javascript when I'm forced to.
 
 
 In addition to the links in the footer there are some places I visit:
 
-  * [winks @ Pinboard](https://pinboard.in/u:winks/) - *quite active*
-  * [winks @ LibraryThing](https://www.librarything.com/catalog/winks) - *somewhat active*
-  * [winkz @ reddit](http://www.reddit.com/user/winkz/) - *mostly reading*
-  * [wink&nbsp;&nbsp;@ lobste.rs](https://lobste.rs/u/wink) - *somewhat active*
-  * [wink&nbsp;&nbsp;@ hn](https://news.ycombinator.com/user?id=wink) *somewhat active*
-  * [wink&nbsp;&nbsp;@ stackoverflow](http://stackoverflow.com/users/1432620/wink) - *inactive*
-  * [kickstarter](https://www.kickstarter.com/profile/1907362337)
-  * [wink's soup](http://wink.soup.io/) - *abandoned, because...*
-  * [wink's multiplex](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ lobste.rs](https://lobste.rs/u/wink)
+  * [<code class="code">winks&nbsp;</code>@ Pinboard](https://pinboard.in/u:winks/)
+  * [<code class="code">winks&nbsp;</code>@ LibraryThing](https://www.librarything.com/catalog/winks)
+  * [<code class="code">winkz&nbsp;</code>@ reddit](http://www.reddit.com/user/winkz/)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ hn](https://news.ycombinator.com/user?id=wink)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ stackoverflow](http://stackoverflow.com/users/1432620/wink)
+  * [<code class="code">kickstarter</code>](https://www.kickstarter.com/profile/1907362337)
+  * <code class="code">wink.soup.io</code> - *abandoned even when it worked, because...*
+  * [<code class="code">wink's multiplex</code>](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
+
 
 ### About this website
 
@@ -91,6 +90,8 @@ In January of 2015 I switched over to [hugo][] because of the faster page
 generation, the better docs and there being an actual community. I still use
 Vim exclusively for updating though.
 
+In October of 2021 I started redoing the CSS.
+
 Earlier incarnations (of which many never even went public) included [Django][],
 [Silex][] and several handcrafted CMS. Didn't we all write those from ca. 2000 to 2005?
 
@@ -99,14 +100,15 @@ that's been live in version 2.0 as early as 2002. I can only guess 1.0 was some 
 My guess is that I've looked into 3/4 of all at least semi-popular weblog engines written in PHP, Python,
 Ruby and Perl, yet never used them in production.
 
+
 ### Privacy
 
 As of now I think the [GDPR][] was mostly a good idea and thus I decided to
 kill off any tracking on this Website. No more Piwik/Matomo, no cookies, no
 external embeds, and webserver logs are deleted after a day.
 
-[lmu]: http://www.ifi.lmu.de
 
+[lmu]: http://www.ifi.lmu.de
 [Hyde]: http://web.archive.org/web/20111222213258/http://ringce.com/hyde
 [Hyde2]: https://github.com/hyde/hyde-old
 [Vim]: http://www.vim.org
@@ -120,3 +122,5 @@ external embeds, and webserver logs are deleted after a day.
 [Markdown]: http://daringfireball.net/projects/markdown/
 [hugo]: http://gohugo.io
 [GDPR]: https://www.eugdpr.org/
+[aoc2020]: https://f5n.org/blog/2020/advent-of-code-2020/
+

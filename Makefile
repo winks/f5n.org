@@ -30,12 +30,14 @@ generate:
 fixstuff:
 	bash ./scripts/hook_final.sh
 
-regen: css generate
+regen: css generate fixstuff
 
 reserve2: regen
 	${HUGO} server -D
 
-reserve: regen fixstuff
+reserve: regen serve
+
+serve:
 	cd public && python -mSimpleHTTPServer 8081
 
 watch: regen

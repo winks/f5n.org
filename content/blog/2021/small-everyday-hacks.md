@@ -21,7 +21,7 @@ Too complicated, but shouldn't a bookmarklet also work?
 
 This is what I came up with in 10 minutes:
 
-<pre>
+<pre class="code">
 javascript:{
 document.querySelectorAll("[name=salutation]")[0].value="Mr";
 document.querySelectorAll("[name=firstname]")[0].value="Firstname";
@@ -47,7 +47,7 @@ bookmarklets.
 
 I guess the semantically correct version would've been
 
-<pre>
+<pre class="code">
 document.querySelector('input[name=firstname]').value
 </pre>
 
@@ -56,13 +56,13 @@ the first working solution.
 
 This also works for the example page at hand:
 
-<pre>
+<pre class="code">
 document.querySelector('[name=firstname]').value
 </pre>
 
 But if we're going to code golf anyway:
 
-<pre>
+<pre class="code">
 javascript:{
 var d=document;
 var q=querySelector;

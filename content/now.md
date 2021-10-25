@@ -15,3 +15,4 @@ Here's some motivational quotes for
 
 Right now I am fully aware I wouldn't update this page, because I'm too busy
 wasting time.
+

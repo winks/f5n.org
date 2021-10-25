@@ -14,6 +14,7 @@ You'll find most of my code on these communities:
   * [bitbucket][]
   * [pear][]
 
+
 ### Remarkable? I don't know
 
   * [media_mogilefs][] - A MogileFS Stream Wrapper to store files for Drupal
@@ -32,6 +33,7 @@ Over the years I've been involved in some projects, here's a quick summary:
   * Helping out with [phpMyFAQ][] development
   * I'm the poor soul trying to triage the windows bugs in [leiningen][]
 
+
 [github]: https://github.com/winks
 [bitbucket]: https://bitbucket.org/wink
 [pear]: http://pear.php.net/user/fa
@@ -47,3 +49,4 @@ Over the years I've been involved in some projects, here's a quick summary:
 [leiningen]: http://leiningen.org
 
 [Serendipity]: http://s9y.org
+
