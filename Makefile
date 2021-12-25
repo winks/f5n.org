@@ -11,12 +11,6 @@ clean:
 	rm -rf public/*
 	rm -rf public/.*
 
-#mrproper:
-#	rm -rf content/*
-
-convert:
-	hyde-hugo.py ~/www/f5n.org/source/content
-
 css:
 	${SASS} themes/f5norg/sass/new.sass themes/f5norg/new.orig.css
 	cat themes/f5norg/new.orig.css | ${CSSMIN} > themes/f5norg/static/media/css/new.css
@@ -38,16 +32,16 @@ reserve2: regen
 reserve: regen serve
 
 serve:
-	cd public && python -mSimpleHTTPServer 8081
+	cd public && python3 -m http.server 8081
 
 watch: regen
 	${HUGO} server -D -b f5n.org --watch
 
 rsync:
-	rsync -av --delete --exclude=media/misc public/ ares:www/f5n.org/public
+	rsync -av --delete --exclude=media/misc public/ deploy_f5n:www/f5n.org/public
 
 rsync-beta:
-	rsync -av --delete public/ ../../beta.f5n.org/public
+	rsync -av --delete --exclude=media/misc public/ deploy_f5n:www/beta.f5n.org/public
 
 lastweek:
 	bash ./scripts/lastweek.sh
