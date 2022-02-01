@@ -242,6 +242,12 @@ a few days where you either don't have that hour or it is simply so hard that
 you would have needed a lot longer. Or maybe my goal of "complete it before
 24h are up" and not catch up later is a bad idea anyway, for my skill level.
 
+## Additional resources
+
+  * [Howto AoC](https://gerikson.com/blog/comp/adventofcode/Howto-AoC.html)
+  * [AoC 2021 Big Inputs](https://the-tk.com/project/aoc2021-bigboys.html)
+  * [AoC subreddit](https://old.reddit.com/r/adventofcode/)
+
 ## Appendix 1: Personal stats
 
 <pre>

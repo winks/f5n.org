@@ -8,12 +8,15 @@ fi
 slug="$1"
 year=$(date +%Y)
 dtx=$(date +%Y-%m-%dT%H:%M:%SZ)
-fname="$(dirname $0)/../content/blog/${year}/${slug}.md"
+dname="$(dirname $0)/../content/blog/${year}"
+fname="${dname}/${slug}.md"
 
 [ -e "$fname" ] && {
 	echo "File $fname exists."
 	exit 1
 }
+
+mkdir -p "${dname}" > /dev/null 2>&1 || true
 
 cat <<EOF > $fname
 +++
