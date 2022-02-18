@@ -10,6 +10,8 @@ if you're developing software there's a plethora of tools that will or will
 not accept the default environment variables, so here's a list of stuff and
 how to fix it.
 
+### Linux environment variables
+
 The usual proxy variables:
 
 ```
@@ -33,22 +35,27 @@ use `curl` under the hood.
 
 I've since configured these additional ones:
 
+### nix-pkgs
+
 ```
 MY_CA_CERT=/foo/my-cert.crt
 
-# nix-pkgs
 export NIX_SSL_CERT_FILE="$MY_CA_CERT"
 ```
 
 Although on my current machine I actually have it set
 to `/etc/ssl/certs/ca-certificates.crt`
 
-Aside, on Ubuntu you can trust your org's CA cert like this:
+### Ubuntu/Debian
+
+As an aside, on Ubuntu you can trust your org's CA cert like this:
 
 ```
 $ sudo cp MyOrgCA.crt /usr/local/share/ca-certificates/MyOrgCA.crt
 $ sudo update-ca-certificates
 ```
+
+### elixir/mix
 
 So this week I tried to install the [Phoenix][phx] framework and that was a journey.
 
@@ -73,6 +80,8 @@ some JS dependencies for a web project, but it was still a bit weird.
 
 Asking in `#elixir` on IRC gave me the answer though that this was an `esbuild`
 watcher that was being started, probably to minify some assets or whatever.
+
+### nodejs
 
 OK, `esbuild`, that's `nodejs` you might think, there's a variable for that:
 
@@ -105,6 +114,19 @@ config :esbuild,
 
 But it worked, so it's fine.
 
+### erlang/rebar3
+
+Update: Two weeks later I ran into the same problem with erlang's package
+manager `rebar3`, but from 3.17 on you can put this:
+
+```
+{ssl_cacerts_path, ["/opt/foo.crt"]}.
+```
+
+into your `~/.config/rebar3/rebar.config` and it works.
+
+### Docker
+
 Oh, and of course Docker also doesn't work properly behind such a proxy,
 so I did this, although there should be other solutions:
 
@@ -119,6 +141,8 @@ Environment="NO_PROXY=localhost,127.0.0.1,*.localstuff.example.org"
 but I've not run into problems without the last line yet, as I don't use
 a local registry.
 
+### git
+
 And finally there's git, put this into `~/.gitconfig`:
 
 ```
@@ -128,6 +152,8 @@ And finally there's git, put this into `~/.gitconfig`:
 [https]
         proxy = http://proxy.local:8080
 ```
+
+### Rust/cargo
 
 I've also had problem with Rust's `cargo`, where solution is supposed to be
 
@@ -150,6 +176,7 @@ http_proxy
 
 and that worked, although cargo is unusually slow.
 
+### Maven
 
 And finally, Maven has this setting inside `~/.m2/settings.xml`:
 
