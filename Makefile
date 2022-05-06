@@ -12,9 +12,9 @@ clean:
 	rm -rf public/.*
 
 css:
-	${SASS} themes/f5norg/sass/new.sass themes/f5norg/new.orig.css
-	cat themes/f5norg/new.orig.css | ${CSSMIN} > themes/f5norg/static/media/css/new.css
-	rm themes/f5norg/new.orig.css
+	${SASS} themes/f5norg/sass/v3.sass themes/f5norg/v3.orig.css
+	cat themes/f5norg/v3.orig.css | ${CSSMIN} > themes/f5norg/static/media/css/v3.css
+	rm themes/f5norg/v3.orig.css
 
 generate:
 	${HUGO}
