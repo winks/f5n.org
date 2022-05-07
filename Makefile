@@ -14,7 +14,7 @@ clean:
 css:
 	${SASS} themes/f5norg/sass/v3.sass themes/f5norg/v3.orig.css
 	cat themes/f5norg/v3.orig.css | ${CSSMIN} > themes/f5norg/static/media/css/v3.css
-	rm themes/f5norg/v3.orig.css
+	rm themes/f5norg/v3.orig.css themes/f5norg/v3.orig.css.map
 
 generate:
 	${HUGO}
