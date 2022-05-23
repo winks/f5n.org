@@ -1,6 +1,6 @@
 +++
 draft = false
-title = "Self Hosting"
+title = "Self-Hosting"
 date = 2022-05-05T11:37:38Z
 +++
 

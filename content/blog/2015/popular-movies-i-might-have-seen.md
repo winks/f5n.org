@@ -14,9 +14,7 @@ TLDR: I don't watch many mainstream movies. For the definition of mainstream tha
 
 *Key*: **Seen it**, Haven’t seen it
 
-{{< rawhtml >}}
 <div class="red-green">
-{{< /rawhtml >}}
 
 ### 2000
 
@@ -305,8 +303,6 @@ TLDR: I don't watch many mainstream movies. For the definition of mainstream tha
 - Dawn of the Planet of the Apes
 - Interstellar
 
-{{< rawhtml >}}
 </div>
-{{< /rawhtml >}}
 
 For the record: He has watched 33, I have 65 out of 234 (if I counted correctly). I find my numbers quite interesting, although misleading. If I subtract the 12 Marvel movies, 8 Harry Potter movies and 5 Tolkien movies, there goes a good third.

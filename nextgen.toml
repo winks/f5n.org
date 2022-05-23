@@ -1,0 +1,7 @@
+baseurl = "https://f5n.org"
+title = "f5n"
+rsslink = "/atom.xml"
+blueprint = "blueprints/f5n.org"
+
+[author]
+    name = "Florian Anderiasch"

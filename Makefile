@@ -1,41 +1,32 @@
-HUGO?='hugo'
+SSG?='nextgen'
 SASS?='sass'
 CSSMIN?="$${HOME}/bin/cssmin"
 
 
-all: regen fixstuff rsync
+all: regen rsync
 
-beta: regen fixstuff rsync-beta
+beta: regen rsync-beta
 
 clean:
 	rm -rf public/*
 	rm -rf public/.*
 
-css:
-	${SASS} themes/f5norg/sass/v3.sass themes/f5norg/v3.orig.css
-	cat themes/f5norg/v3.orig.css | ${CSSMIN} > themes/f5norg/static/media/css/v3.css
-	rm themes/f5norg/v3.orig.css themes/f5norg/v3.orig.css.map
+blueprints/f5n.org/static/media/css/v3.min.css: blueprints/f5n.org/sass/v3.sass
+	${SASS} blueprints/f5n.org/sass/v3.sass blueprints/f5n.org/static/media/css/v3.orig.css
+	cat blueprints/f5n.org/static/media/css/v3.orig.css | ${CSSMIN} > blueprints/f5n.org/static/media/css/v3.min.css
+	#rm themes/f5norg/v3.orig.css themes/f5norg/v3.orig.css.map
+
+css: blueprints/f5n.org/static/media/css/v3.min.css
 
 generate:
-	${HUGO}
-	cp public/blog/index.xml public/blog/atom.xml
-	cp public/stack/index.xml public/stack/atom.xml
+	${SSG}
 
-fixstuff:
-	bash ./scripts/hook_final.sh
-
-regen: css generate fixstuff
-
-reserve2: regen
-	${HUGO} server -D
+regen: css generate
 
 reserve: regen serve
 
 serve:
 	cd public && python3 -m http.server 8081
-
-watch: regen
-	${HUGO} server -D -b f5n.org --watch
 
 rsync:
 	rsync -av --delete --exclude=media/misc public/ deploy_f5n:www/f5n.org/public
