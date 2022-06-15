@@ -11,7 +11,11 @@ These are the sources for [f5n.org](http://f5n.org).
 
 ## Howto
 
+Grab (or create) a [blueprint][bp] and run nextgen.
+
 ```
 git clone https://github.com/winks/nextgen-blueprints blueprints
 nextgen
 ```
+
+[bp]: https://github.com/winks/nextgen-blueprints
