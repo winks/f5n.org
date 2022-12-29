@@ -75,3 +75,4 @@ Yep, the experience for a team of six was better on a jitsi instance on a 5€ V
 [i2f5nde]: https://ip-tools.deno.dev
 [flyio]: https://fly.io
 [render]: https://render.com
+[slim]: https://www.slimframework.com/

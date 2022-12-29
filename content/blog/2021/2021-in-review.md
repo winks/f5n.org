@@ -21,7 +21,7 @@ These review posts have proven useful when looking up stuff, so I'll continue th
 ### Non-Board Games I've played/bought
 
   * World of Warcraft - *subscribed for the whole year, played a lot in the first half of the year*
-  * EVE Online - *subscribed for thw whole year, played a lot*
+  * EVE Online - *subscribed for the whole year, played a lot*
   * Final Fantasy XIV - *resubscribed for the winter*
   * Horizon: Zero Dawn - *it's good!*
 
@@ -37,19 +37,19 @@ to cover.
 
   * Kingsman: The Golden Circle - *the first one was a lot better*
   * The Old Guard - *I liked it*
-  * Falling Inn Love - *wanted ot watch a movie with NZ accents, no idea how I came to this one, was ok*
+  * Falling Inn Love - *wanted to watch a movie with NZ accents, no idea how I came to this one, was ok*
   * Scott Pilgrim vs. the World - *desperately needed a rewatch*
   * I Kill Giants - *it was ok*
   * The Claus Family - *stopped after 30 minutes, I don't like it*
   * Jingle Jangle: A Christmas Journey - *not bad for a Christmas movie, but not my favourite*
 
 
-## TV Series I've (re-)watched
+### TV Series I've (re-)watched
 
   * Arcane - *only started, but it looks really good*
 
 
-## CDs I bought
+### CDs I bought
 
 Two bands I've actually rediscovered this year and decided to support.
 I saw Mono Inc. live a few years ago and only had a shirt, I remembered Metric

@@ -41,7 +41,7 @@ I started with both "Laika's Window" by Kurt Caswell and "A Guide To The Good Li
 
   * Dr. Oakley - Yukon Vet on Disney+ - *no idea why, but I really liked it*
   * Encore on Disney+ - *stopped after 2-3 episodes*
-  * The Mandalorian on Disney+ - *it's Star Wars and I didn't like it. Weird.*
+  * The Mandalorian on Disney+ - *it's Star Wars and I didn't like it. Weird.
 
 
 ## CDs I bought

@@ -11,6 +11,7 @@ date = 2011-06-18T23:23:23Z
 You'll find most of my code on these communities:
 
   * [github][]
+  * [codeberg][]
   * [bitbucket][]
   * [pear][]
 
@@ -35,6 +36,7 @@ Over the years I've been involved in some projects, here's a quick summary:
 
 
 [github]: https://github.com/winks
+[codeberg]: https://codeberg.org/wink
 [bitbucket]: https://bitbucket.org/wink
 [pear]: http://pear.php.net/user/fa
 
