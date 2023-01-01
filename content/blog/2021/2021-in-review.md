@@ -115,13 +115,16 @@ Surprisingly little for another year stuck at home, not that I'm complaining.
   * Python - for some small stuff
   * Go - *for Advent of Code, I don't like it*
 
+
 ### Podcasts I listen to
 
 Hardly anything this year
 
+
 ### Stuff that kinda worked out
 
 I like my new job, that's about the only upside of this second pandemic year.
+
 
 ### Stuff I planned to do this year but didn't
 
