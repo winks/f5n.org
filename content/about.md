@@ -24,9 +24,9 @@ I studied Computer Science at
 I like programming languages, as can be seen in this post, where I use 20
 different ones to solve the [Advent of Code 2020][aoc2020].
 
-2021 version:
+2023 version:
 
-> I'm writing a mix of Java, C++, and Erlang in my day job.
+> I'm writing a mix of Java, C++, and Erlang/Elixir in my day job.
 
 In 2018 I wrote:
 
@@ -88,9 +88,11 @@ HTML and in my case a Makefile does all the plumbing. Not fancy at all.
 
 In January of 2015 I switched over to [hugo][] because of the faster page
 generation, the better docs and there being an actual community. I still use
-Vim exclusively for updating though.
+Vim exclusively for updating though and then came some gradual CSS changes.
 
-In October of 2021 I started redoing the CSS.
+As of [May 2022][nextgenswitch] this website is powered by my own toy static site generator.
+Originally written as a real MVP of the hugo features I use, at some point I made it
+work for my basic needs. [Source code is available][nextgenrepo].
 
 Earlier incarnations (of which many never even went public) included [Django][],
 [Silex][] and several handcrafted CMS. Didn't we all write those from ca. 2000 to 2005?
@@ -123,4 +125,5 @@ external embeds, and webserver logs are deleted after a day.
 [hugo]: http://gohugo.io
 [GDPR]: https://www.eugdpr.org/
 [aoc2020]: https://f5n.org/blog/2020/advent-of-code-2020/
-
+[nextgenswitch]: /blog/2022/switching-to-nextgen/
+[nextgenrepo]: https://github.com/winks/nextgen

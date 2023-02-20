@@ -55,6 +55,15 @@ $ sudo cp MyOrgCA.crt /usr/local/share/ca-certificates/MyOrgCA.crt
 $ sudo update-ca-certificates
 ```
 
+### RedHat/CentOS/AmazonLinux
+
+This should work on all RH flavours:
+
+```
+$ sudo cp MyOrgCA.crt /etc/pki/ca-trust/source/anchors/
+$ sudo update-ca-trust extract
+```
+
 ### elixir/mix
 
 So this week I tried to install the [Phoenix][phx] framework and that was a journey.
@@ -141,6 +150,20 @@ Environment="NO_PROXY=localhost,127.0.0.1,*.localstuff.example.org"
 but I've not run into problems without the last line yet, as I don't use
 a local registry.
 
+You also might need to tweak DNS for Docker:
+
+```
+$ cat /etc/docker/daemon.json
+{"dns":["10.0.0.10","9.9.9.9"]}
+```
+
+A quick way to test is running:
+
+```
+$ docker run busybox nslookup example.org
+```
+
+
 ### git
 
 And finally there's git, put this into `~/.gitconfig`:
@@ -176,9 +199,20 @@ http_proxy
 
 and that worked, although cargo is unusually slow.
 
+### Gradle
+
+For gradle, you need to put these lines into `~/.gradle/gradle.properties`:
+
+```
+systemProp.http.proxyHost=proxy.local
+systemProp.http.proxyPort=8080
+systemProp.https.proxyHost=proxy.local
+systemProp.https.proxyPort=8080
+```
+
 ### Maven
 
-And finally, Maven has this setting inside `~/.m2/settings.xml`:
+Maven needs this in `~/.m2/settings.xml`:
 
 ```
 <settings>
@@ -202,6 +236,23 @@ And finally, Maven has this setting inside `~/.m2/settings.xml`:
   </proxies>
 </settings>
 ```
+
+### Java
+
+Finally, for every JVM you use you need to add the cert to the key store, if that's applicable:
+
+For a .crt this is usually done via:
+
+```
+keytool -importcert -alias asdf -keystore $JAVA_HOME/jre/lib/security/cacerts -storepass changeit -file cert.crt -noprompt
+```
+
+For GraalVM the path is slightly different:
+
+```
+keytool -importcert -alias asdf -keystore $JAVA_HOME/lib/security/cacerts -storepass changeit -file cert.crt -noprompt
+```
+
 
 And yes, none of this is breaking news, but before I have to put everything
 together again the next time I'd rather have a consolidated page.
