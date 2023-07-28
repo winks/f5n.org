@@ -1,6 +1,5 @@
 public/
-.sass-cache
-tmp/
-themes/
-lastrun*.txt
 blueprints/
+tmp/
+.sass-cache
+lastrun*.txt
