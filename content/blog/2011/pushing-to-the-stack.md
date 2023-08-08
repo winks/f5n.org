@@ -15,7 +15,7 @@ For a while I've been annoying my colleagues with random links I've found
 
 Many of those links are from [Hacker News](http://news.ycombinator.com),
  and some inspiration is taken from [the left fold](http://www.foldl.org)
- (sadly not updated anymore) and [trivium](http://chneukirchen.org/trivium).
+ (sadly not updated anymore) and [trivium](https://leahneukirchen.org/trivium).
 
 Maybe I'll post the months prior to November 2011 in monthly sets, but probably not.
 
@@ -25,6 +25,6 @@ Oh, and there's a separate feed for it: [The Stack](/stack/atom.xml).
 
 So here's a list of related lists. (How meta.)
 
-  * [trivium](http://chneukirchen.org/trivium) is still going strong
+  * [trivium](http://leahneukirchen.org/trivium) is still going strong
   * [fogus](http://blog.fogus.me) has been posting links for a while now
   * [R.I.Pienaar](http://us14.campaign-archive1.com/home/?u=48a10a5d8254d034473c9ca1c&id=38d0f6d5e9) recently started, sadly it's a newsletter

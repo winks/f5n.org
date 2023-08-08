@@ -21,7 +21,7 @@ loathing javascript.
 I studied Computer Science at
 [Ludwig-Maximilians-Universit&auml;t M&uuml;nchen][lmu] ages ago.
 
-I like programming languages, as can be seen in this post, where I use 20
+I like programming languages, as can be seen in that post where I use 20
 different ones to solve the [Advent of Code 2020][aoc2020].
 
 2023 version:
@@ -61,6 +61,7 @@ In 2011 I wrote:
 In addition to the links in the footer there are some places I visit:
 
   * [<code class="code">wink&nbsp;&nbsp;</code>@ lobste.rs](https://lobste.rs/u/wink)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ codeberg.org](https://codeberg.org/wink)
   * [<code class="code">winks&nbsp;</code>@ Pinboard](https://pinboard.in/u:winks/)
   * [<code class="code">winks&nbsp;</code>@ LibraryThing](https://www.librarything.com/catalog/winks)
   * [<code class="code">winkz&nbsp;</code>@ reddit](http://www.reddit.com/user/winkz/)
@@ -73,13 +74,15 @@ In addition to the links in the footer there are some places I visit:
 
 ### About this website
 
-This awe-inspiring website was originally made with [Hyde][]([code][Hyde2]) and [Vim][].
+This awe-inspiring website was originally made with [Hyde][] ([code][Hyde2]) and [Vim][].
 Both choices were to a small degree inspired by posts by [Steve Losh][sjl],
 although I've had read about Hyde before and had used Vim for ages.
 But in both cases his excellent articles tipped the point.
 
 In August of 2013 I threw out [Blueprint][] and replaced the CSS with a
-responsive layout done in [Foundation][]. <s>The only JavaScript you'll find
+responsive layout done in [Foundation][]. That got thrown out [in 2022][owncss].
+
+<s>The only JavaScript you'll find
 on this website is [Piwik][], although I hardly look at the visits. How useful!</s>
 No more tracking as of May 2018.
 
@@ -107,7 +110,9 @@ Ruby and Perl, yet never used them in production.
 
 As of now I think the [GDPR][] was mostly a good idea and thus I decided to
 kill off any tracking on this Website. No more Piwik/Matomo, no cookies, no
-external embeds, and webserver logs are deleted after a day.
+external embeds, and webserver logs are not even written to disk.
+
+Feel free to reach out if you found something helpful or interesting on this site.
 
 
 [lmu]: http://www.ifi.lmu.de
@@ -127,3 +132,4 @@ external embeds, and webserver logs are deleted after a day.
 [aoc2020]: https://f5n.org/blog/2020/advent-of-code-2020/
 [nextgenswitch]: /blog/2022/switching-to-nextgen/
 [nextgenrepo]: https://github.com/winks/nextgen
+[owncss]: /blog/2022/theme-v3/
