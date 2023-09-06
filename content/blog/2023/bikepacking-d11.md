@@ -4,7 +4,8 @@ title = "Bikepacking the D11"
 date = 2023-06-26T16:15:23Z
 +++
 
-I'd long planned to do a multi day bikepacking tour and these last few days in
+I'd long planned to do a multi day bikepacking
+ [see footnote at the end] tour and these last few days in
 my June vacation it finally happened. Planning wasn't so great, but it all
 worked out in the end.
 
@@ -418,9 +419,9 @@ little useless, I'd imagined it as some "I need to fix the bike to a pole or
 railing in a few seconds while having to step away really quickly, and no time
 to take out the lock from my back pack", but that never happened. But I guess
 it's like 50g (like a zip tie with a metal core, with a special plain key) so
-not much lost, expect those couple euros :P
+not much lost, except those couple euros :P
 
-The weather was really nice so I didn't need to change unless planned.
+The weather was really nice so I didn't need to change on a whim.
 
 The list of things I should have taken and did not is pretty short:
 
@@ -474,7 +475,7 @@ been hard to put all the stuff in. Many people prefer to go without a
 backpack, but mine is fine for me as long as I don't make it too heavy.
 The suggested 80-100 km per day seem ok for someone who usually uses a bike
 a lot but hasn't really started the season with doing longer trips.
-A day with up to 800m of climbing was mostly dobnle, the day with 1800
+A day with up to 800m of climbing was mostly doable, the day with 1800
 was hard. My stop at home in the middle was
 a nice safety net, but completely unneeded, although I did of course plan
 around it a bit, for example only taking one spare tube for the first two
@@ -491,6 +492,12 @@ to do a little research regarding camping sites but their websites are mostly
 terrible and I wasn't confident I'd have a place to sleep every night. Guess I
 should try that some other time when it's not a huge trip, just a weekend
 where if bad comes to worst you can improvise.
+
+## Footnotes
+
+1) I know some people might take offense that by sleeping in hotels and not
+in a tent it's not bikepacking, but bicycle touring but I honestly don't care.
+I did plan to go with a tent but it didn't work out. Maybe next time.
 
 
 [d11]: https://en.wikipedia.org/wiki/German_Cycling_Network

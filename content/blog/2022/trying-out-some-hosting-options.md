@@ -26,7 +26,7 @@ If you configure the DNS TXT records correctly, then you also get SSL on your ow
 
 Everything has been completely smooth here and I didn't run into any problems.
 
-I did the same thing for another small project, but it's 100% the same setup, so I won't elaborate it.
+I did the same thing for another small project, but it's 100% the same setup, so I won't elaborate.
 Roughly the same age, ~150 lines of PHP code (nothing wrong with the code, it's kinda trivial as well),
 and I also rewrote it in TypeScript, cleaned it up, and moved it to Deno Deploy, also keeping the old
 code running on my server under a different URL.

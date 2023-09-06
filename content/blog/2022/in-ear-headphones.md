@@ -43,3 +43,13 @@ track down a few more pairs of Xiaomi Piston V3. Sad as it is.
 
 Between writing this and publishing it I actually found one set of the Pistons
 in my drawer, so I guess I'm good for 1-2 years...
+
+**Update 2023-09-06:** Around November 2022 I bought a pair of Panasonic RP-HJE125 for
+around 10€ on a trip because I'd forgotten mine at home and they seem to sound
+better than the JBL ones.
+
+When I ["upgraded" my phone](/blog/2023/mobile-phones/) to one
+without an audio jack I needed Bluetooth ones, I went for the
+[Teufel Airy Sports](https://teufel.de/airy-sports-106113000) - deliberately choosing
+the ones with the neckband. They're fine, but I'd still prefer to use some cheaper
+ones that don't run out of battery. Oh well.

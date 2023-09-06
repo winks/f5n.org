@@ -58,18 +58,23 @@ In 2011 I wrote:
 > Javascript when I'm forced to.
 
 
-In addition to the links in the footer there are some places I visit:
+Here are some places I visit and/or post at more or less regularly:
 
-  * [<code class="code">wink&nbsp;&nbsp;</code>@ lobste.rs](https://lobste.rs/u/wink)
-  * [<code class="code">wink&nbsp;&nbsp;</code>@ codeberg.org](https://codeberg.org/wink)
-  * [<code class="code">winks&nbsp;</code>@ Pinboard](https://pinboard.in/u:winks/)
-  * [<code class="code">winks&nbsp;</code>@ LibraryThing](https://www.librarything.com/catalog/winks)
-  * [<code class="code">winkz&nbsp;</code>@ reddit](http://www.reddit.com/user/winkz/)
-  * [<code class="code">wink&nbsp;&nbsp;</code>@ hn](https://news.ycombinator.com/user?id=wink)
-  * [<code class="code">wink&nbsp;&nbsp;</code>@ stackoverflow](http://stackoverflow.com/users/1432620/wink)
-  * [<code class="code">kickstarter</code>](https://www.kickstarter.com/profile/1907362337)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ sup.f5n.org](https://sup.f5n.org/@wink) (Fediverse, English)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ chaos.social](https://chaos.social/@wink) (Fediverse, German)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ codeberg.org](https://codeberg.org/wink) (Code)
+  * [<code class="code">winks&nbsp;</code>@ github.com](https://github.com/wink) (More code)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ lobste.rs](https://lobste.rs/u/wink) (Tech)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ hn](https://news.ycombinator.com/user?id=wink) (More tech)
+  * [<code class="code">winkz&nbsp;</code>@ reddit](http://www.reddit.com/user/winkz/) (Mostly bikes)
+  * [<code class="code">winks&nbsp;</code>@ Pinboard](https://pinboard.in/u:winks/) (Links)
+  * [<code class="code">winks&nbsp;</code>@ LibraryThing](https://www.librarything.com/catalog/winks) (Books)
+  * [<code class="code">wink&nbsp;&nbsp;</code>@ stackoverflow](http://stackoverflow.com/users/1432620/wink) (Mostly nothing)
+  * [<code class="code">???&nbsp;&nbsp;&nbsp;</code>@ kickstarter](https://www.kickstarter.com/profile/1907362337) (More nothing)
   * <code class="code">wink.soup.io</code> - *abandoned even when it worked, because...*
   * [<code class="code">wink's multiplex</code>](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
+
+I've closed down my Twitter account in 2023 when all the drama started to heat up and I don't plan to go back.
 
 
 ### About this website
@@ -80,10 +85,10 @@ although I've had read about Hyde before and had used Vim for ages.
 But in both cases his excellent articles tipped the point.
 
 In August of 2013 I threw out [Blueprint][] and replaced the CSS with a
-responsive layout done in [Foundation][]. That got thrown out [in 2022][owncss].
+responsive layout done in [Foundation][]. That in turn got replaced [in 2022][owncss].
 
 <s>The only JavaScript you'll find
-on this website is [Piwik][], although I hardly look at the visits. How useful!</s>
+on this website is [Piwik][], although I hardly look at the visits. How useful!</s><br>
 No more tracking as of May 2018.
 
 Technically speaking, most static site generators transform [Markdown][] to
@@ -113,6 +118,7 @@ kill off any tracking on this Website. No more Piwik/Matomo, no cookies, no
 external embeds, and webserver logs are not even written to disk.
 
 Feel free to reach out if you found something helpful or interesting on this site.
+Or errors, I bet there are more errors than helpful things.
 
 
 [lmu]: http://www.ifi.lmu.de
