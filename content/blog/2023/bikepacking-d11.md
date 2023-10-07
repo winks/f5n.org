@@ -503,7 +503,7 @@ I did plan to go with a tent but it didn't work out. Maybe next time.
 [d11]: https://en.wikipedia.org/wiki/German_Cycling_Network
 [d11de]: https://de.wikipedia.org/wiki/Ostsee%E2%80%93Oberbayern_(D11)
 [radroutenplaner]: https://www.radroutenplaner-deutschland.de/veraDNetz_EN.asp
-[wga]: https://www.wildganz.com/ostsee-oberbayern-d-route-11/ostsee-oberbayern-d-route-11
+[wga]: https://www.wildganz.com/?view=article&id=7041&catid=145
 [fedi1]: https://chaos.social/@wink/110546254254628960
 [fedi2]: https://chaos.social/@wink/110553570789418513
 [fedi3]: https://chaos.social/@wink/110559320754767790
