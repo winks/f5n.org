@@ -113,9 +113,9 @@ Still don't see any widespread migration away from WhatsApp, but some discussion
 ### Trips
 
   * other countries: Czech Republic for a weekend
-  * in Germany: once to Berlin, also few days near the mountains
+  * in Germany: once to Berlin, also a few days near the mountains
 
-While I don't like German Pilsner at all, since this trip I've been buying Pilsner Urquell, because Czech Pilsner is good (so is Budvar and most of the others I tasted). This phase will be over at some point I suppose, but for now I'm enjoying my small 33cl 4.4% bottles, usually not more than one a day.
+While I don't like German Pilsner at all, since this trip I've been buying Pilsner Urquell again, because Czech Pilsner is good (so is Budvar and most of the others I tasted). This phase will be over at some point I suppose, but for now I'm enjoying my small 33cl 4.4% bottles, usually not more than one a day.
 
 ### (Online) Services
 
