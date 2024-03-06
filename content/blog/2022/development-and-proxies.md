@@ -176,6 +176,13 @@ And finally there's git, put this into `~/.gitconfig`:
         proxy = http://proxy.local:8080
 ```
 
+### Python/Pip
+
+```
+pip install --cert=/foo/my-cert.crt PACKAGE
+```
+
+
 ### Rust/cargo
 
 I've also had problem with Rust's `cargo`, where solution is supposed to be
