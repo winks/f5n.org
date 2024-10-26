@@ -1,7 +1,7 @@
 +++
 draft = false
 title = "Cycling on the D11, part 2"
-date = 2024-08-29T16:15:23Z
+date = 2024-08-29T11:15:23Z
 +++
 
 
@@ -68,7 +68,7 @@ some ok cheesecake. Should have gone to the Korean place next door but I wasn't 
 
 Next on to Fürth, directly adjacent, no rain anymore.
 
-![river runs through a forest](/media/blog/2024/2024_forest.jpg)
+![Fürth](/media/blog/2024/2024_fuerth.jpg)
 
 After that the route took me past Erlangen but I decided I wanted to see the city after all and made about
 a 4km detour into the city center and looked around for a bit then grabbed a beer at Kitzmann Bräuschenke.
