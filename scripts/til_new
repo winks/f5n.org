@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+
+if [ "$2" = "" ]; then
+	echo "Usage: $0 folder slug"
+	exit
+fi
+
+folder="$1"
+slug="$2"
+year=$(date +%Y)
+dtx=$(date +%Y-%m-%dT%H:%M:%SZ)
+dname="$(dirname $0)/../content/til/${folder}"
+fname="${dname}/${slug}.md"
+
+[ -e "$fname" ] && {
+	echo "File $fname exists."
+	exit 1
+}
+[ ! -d "${dname}" ] && {
+	mkdir -p "${dname}" > /dev/null 2>&1
+}
+
+cat <<EOF > $fname
++++
+draft = false
+title = "$slug"
+date = $dtx
+tags = ["$folder"]
++++
+
+EOF
+
+echo "Created: $fname"
+exec vim $fname
+
