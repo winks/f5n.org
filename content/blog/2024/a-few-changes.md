@@ -33,3 +33,5 @@ The second thing is that I tweaked the CSS a bit. Ran the W3C validator,
 removed the moz-box-shadow et al that have probably been in there for 10 years,
 and cleaned up the header section. Time will tell if I like it enough to keep
 it. Also the breadcrumbs are gone for now.
+
+[nextgen]: https://github.com/winks/nextgen

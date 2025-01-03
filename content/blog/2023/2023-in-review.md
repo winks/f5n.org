@@ -58,7 +58,7 @@ These review posts have proven useful when looking up stuff, so I'll continue th
 
 ### CDs I bought
 
-  * The haul from late December 2023 I hinted at last year:
+  * The haul from late December 2022 I hinted at last year:
     * Therion - Leviathan II DIGIPAK
     * The Halo Effect - Days Of The Lost
     * Soilwork - Övergivenheten DIGIPAK

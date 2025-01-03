@@ -45,7 +45,12 @@ This is how it actually works:
 
 Yes, the trailing slash is important. Doh.
 
-You can also use the .git off, but maybe that makes it clearer that this
+You can also leave off the `.git`, but maybe that makes it clearer that this
 is a single repo, while the first example matches every subdir as well.
 
 Source: [man page](https://git-scm.com/docs/git-config)
+
+**Addendum:** Apparently you can also solve the
+"different keys for the same host, e.g. github.com" problem with includes:
+
+https://stevenharman.net/configure-ssh-keys-for-multiple-github-accounts
