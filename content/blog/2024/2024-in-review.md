@@ -26,7 +26,7 @@ These review posts have proven useful when looking up stuff, so I'll continue th
   * World of Warcraft - The War Within
   * EVE Online
   * Diablo IV
-  * Final Fantasy IV - Dawntrail
+  * Final Fantasy XIV - Dawntrail
 
 
 ### Movies I've (re-)watched
