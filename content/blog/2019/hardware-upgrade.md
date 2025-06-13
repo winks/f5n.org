@@ -24,13 +24,13 @@ Hardware I didn't replace:
  * Samsung SyncMaster 2443BW 24”
  * Samsung EVO 860 1 TB SSD
 
-**Update 2021:** Despite the market's best effort to deny me one, on December 28th I managed to order a
+**Update 2021-01:** Despite the market's best effort to deny me one, on December 28th I managed to order a
 GeForce RTX 3070 (GIGABYTE Eagle OC 8 GB) for just under 600 EUR and it arrived on January 2nd.
 Also I've been running a 3rd monitor since a bit before that, a 27" Samsung LS27C350, which is not great,
 but I got it for free.
 
 [hw2012]: /blog/2012/hardware-upgrade
-[ryzen7]: https://www.amd.com/en/products/cpu/amd-ryzen-7-3700x
+[ryzen7]: https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-3000-series/amd-ryzen-7-3700x.html
 [b450m]: https://www.msi.com/Motherboard/B450M-MORTAR-MAX.html
 [basport]: https://www.crucial.com/usa/en/memory-ballistix-sport-lt
 [970evo]: https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m-2-1tb-mz-v7e1t0bw/

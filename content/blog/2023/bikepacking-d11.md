@@ -249,7 +249,7 @@ So getting up very early was a fun challenge with a switched off phone, but I
 just hoped I'd wake up at some point during the early morning hours and then be
 able to switch on my GPS and set an alarm. That worked, but I still ended up
 waking up at 6:15 just before the alarm. Grabbed my stuff to stand ready at
-6:50 when the bug grocery store opened, but unfortunately they didn't have any
+6:50 when the big grocery store opened, but unfortunately they didn't have any
 charging cables and the electronics store wouldn't open until 9.
 
 Anyway, no use delaying and so the route went to Essing, Prunn and in

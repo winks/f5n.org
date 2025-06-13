@@ -15,6 +15,8 @@ For my own reference, the recent hardware upgrade:
  * Mach Xtreme Adapter 2.5"/3.5", 6 EUR
  * [Sapphire HD6870][hwsapphirehd6870], 1024 MB, 2xDVI, HDMP, DP, 148 EUR
 
+Total: 677 EUR
+
 Replaced this:
 
  * Intel Core2Duo E6850, Socket 775, 4 MB Cache, 3.0 GHz, boxed
