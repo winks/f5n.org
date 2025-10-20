@@ -10,8 +10,8 @@ date = 2011-06-18T23:23:23Z
 
 You'll find most of my code on these communities:
 
-  * [github][]
   * [codeberg][]
+  * [github][]
   * [bitbucket][]
   * [pear][]
 
@@ -30,9 +30,9 @@ Over the years I've been involved in some projects, here's a quick summary:
   * I used to run [izlude.de][], a highly-praised forum-signature generator for [Ragnarok Online][euroro]
   * Helped with translating the German PHP manual
   * Occasionally trying to clear the PHP bug tracker by diagnosing and (sometimes) bugfixing
-  * Been active in the [Serendipity][] community for a while
+  * Was active in the [Serendipity][] community for a while
   * Helping out with [phpMyFAQ][] development
-  * I'm the poor soul trying to triage the windows bugs in [leiningen][]
+  * I'm the poor soul trying to triage the windows bugs in [Leiningen][]
 
 
 [github]: https://github.com/winks
@@ -48,7 +48,7 @@ Over the years I've been involved in some projects, here's a quick summary:
 [izlude.de]: http://izlude.de
 [euroro]: http://euro-ro.net
 [phpMyFAQ]: http://www.phpmyfaq.de
-[leiningen]: http://leiningen.org
+[Leiningen]: http://leiningen.org
 
 [Serendipity]: http://s9y.org
 

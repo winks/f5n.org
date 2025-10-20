@@ -79,7 +79,8 @@ I've closed down my Twitter account in 2023 when all the drama started to heat u
 
 ### About this website
 
-This awe-inspiring website was originally made with [Hyde][] ([code][Hyde2]) and [Vim][].
+This awe-inspiring website was originally made with [Hyde][] ([code][Hyde2])
+and [Vim][] in [2011](/blog/2011/hello-world/).
 Both choices were to a small degree inspired by posts by [Steve Losh][sjl],
 although I've had read about Hyde before and had used Vim for ages.
 But in both cases his excellent articles tipped the point.
@@ -110,6 +111,15 @@ that's been live in version 2.0 as early as 2002. I can only guess 1.0 was some 
 My guess is that I've looked into 3/4 of all at least semi-popular weblog engines written in PHP, Python,
 Ruby and Perl, yet never used them in production.
 
+### Now
+
+So the currently (October 2025) involved technologies are:
+
+  * SASS
+  * [nextgen][nextgenrepo]
+  * make
+  * [Caddy](https://caddyserver.com)
+  * [Let's Encrypt](https://letsencrypt.org)
 
 ### Privacy
 
@@ -137,5 +147,5 @@ Or errors, I bet there are more errors than helpful things.
 [GDPR]: https://www.eugdpr.org/
 [aoc2020]: https://f5n.org/blog/2020/advent-of-code-2020/
 [nextgenswitch]: /blog/2022/switching-to-nextgen/
-[nextgenrepo]: https://github.com/winks/nextgen
+[nextgenrepo]: https://codeberg.org/wink/nextgen
 [owncss]: /blog/2022/theme-v3/
