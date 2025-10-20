@@ -1,6 +1,6 @@
 SSG?='nextgen'
 SASS?='sass'
-CSSMIN?="$${HOME}/bin/cssmin"
+CSSMIN?='cssmin'
 
 
 all: regen rsync

@@ -12,7 +12,7 @@ At the time of writing I own 4 mechanical keyboards (and a handful of old
 non-mechanical ones, all unused - the newest of them is probably 7-10 years
 old already), of which I use two on an almost daily basis.
 
-![Logitech G710+ MX Brown](/media/blog/kbd_g710.jpg)
+{{ macros::figure(src="/media/blog/kbd_g710.jpg", title="Logitech G710+ MX Brown", w="600", h="300") }}
 
 This is a Logitech G710+ MX Brown with a German QWERTZ layout. I bought it in
 February 2018, on ebay, for 60 EUR. I had successfully put off getting one for
@@ -25,7 +25,7 @@ for close to 10 years (or maybe 12? I don't remember). The color was coming off
 the keys already, the LEDs were fading, it was becoming very hard to clean...
 But I already miss the 3x4 additional G keys when playing MMOs, but it's ok.
 
-![Noppoo Choc Mid MX Black](/media/blog/kbd_choc_mid.jpg)
+{{ macros::figure(src="/media/blog/kbd_choc_mid.jpg", title="Noppoo Choc Mid MX Black", w="600", h="300") }}
 
 This is a Noppoo Choc Mid 87 MX Black, with a Tai Hao Sunshine Keycap set from
 MassDrop. I've had this one since July 2013 (so 5 years now) as a work keyboard,
@@ -35,7 +35,7 @@ the choice.
 This is the best keyboard I've ever had (since 1994) and I hope I can use it for
 a few more years.
 
-![Noppoo Choc Mini MX Black](/media/blog/kbd_choc_mini.jpg)
+{{ macros::figure(src="/media/blog/kbd_choc_mini.jpg", title="Noppoo Choc Mini MX Black", w="600", h="300") }}
 
 This is a Noppoo Choc Mini MX Black ANSI US International NKRO, I bought it in
 July 2012 for 88 EUR after having either this one or another Mid at my
@@ -45,7 +45,7 @@ available via Fn, and the arrow keys could be more prominent, but it's ok.
 Would be a cool travel keyboard if it had a detachable cable and was a bit
 lighter.
 
-![Motospeed Inflictor CK104 Blue Switch](/media/blog/kbd_ck104.jpg)
+{{ macros::figure(src="/media/blog/kbd_ck104.jpg", title="Motospeed Inflictor CK104 Blue Switch", w="600", h="300") }}
 
 This is a Motospeed Inflictor CK104 Blue Switch I bought in April 2017 for
 41 EUR. This is a pretty nice keyboard, it was cheap and because I bought it
