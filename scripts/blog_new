@@ -1,22 +1,26 @@
 #!/usr/bin/env bash
 
+year=$(date +%Y)
+
 if [ "$1" = "" ]; then
-	echo "Usage: $0 slug"
+	echo "Usage: $0 SLUG"
+	echo "    -> content/blog/${year}/SLUG.md"
 	exit
 fi
 
 slug="$1"
-year=$(date +%Y)
 dtx=$(date +%Y-%m-%dT%H:%M:%SZ)
-dname="$(dirname $0)/../content/blog/${year}"
-fname="${dname}/${slug}.md"
+base_dir="$(dirname $0)/.."
+fname="${base_dir}/content/blog/${year}/${slug}.md"
 
 [ -e "$fname" ] && {
-	echo "File $fname exists."
+	echo "File ${fname} exists."
 	exit 1
 }
 
-mkdir -p "${dname}" > /dev/null 2>&1 || true
+[ ! -d $(dirname "${fname}") ] && {
+  mkdir -p $(dirname "${fname}") > /dev/null 2>&1
+}
 
 cat <<EOF > $fname
 +++
@@ -27,6 +31,7 @@ date = $dtx
 
 EOF
 
-echo "Created: $fname"
-exec vim $fname
+echo "Created: ${fname}" | sed 's,^\(Created:\).*\(content/blog/.*\)$,\1 \2,'
+EDITOR=${EDITOR:-vim}
+exec $EDITOR $(readlink -f ${fname})
 

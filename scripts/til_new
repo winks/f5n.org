@@ -1,23 +1,25 @@
 #!/usr/bin/env bash
 
+year=$(date +%Y)
+
 if [ "$2" = "" ]; then
-	echo "Usage: $0 folder slug"
+	echo "Usage: $0 TAG SLUG"
 	exit
 fi
 
-folder="$1"
+tagname="$1"
 slug="$2"
-year=$(date +%Y)
 dtx=$(date +%Y-%m-%dT%H:%M:%SZ)
-dname="$(dirname $0)/../content/til/${folder}"
-fname="${dname}/${slug}.md"
+base_dir="$(dirname $0)/.."
+fname="${base_dir}/content/til/${tagname}/${slug}.md"
 
-[ -e "$fname" ] && {
-	echo "File $fname exists."
+[ -e "${fname}" ] && {
+	echo "File ${fname} exists."
 	exit 1
 }
-[ ! -d "${dname}" ] && {
-	mkdir -p "${dname}" > /dev/null 2>&1
+
+[ ! -d $(dirname "${fname}") ] && {
+  mkdir -p $(dirname "${fname}") > /dev/null 2>&1
 }
 
 cat <<EOF > $fname
@@ -25,11 +27,11 @@ cat <<EOF > $fname
 draft = false
 title = "$slug"
 date = $dtx
-tags = ["$folder"]
+tags = ["$tagname"]
 +++
 
 EOF
 
-echo "Created: $fname"
-exec vim $fname
-
+echo "Created: ${fname}" | sed 's,^\(Created:\).*\(content/til/.*\)$,\1 \2,'
+EDITOR=${EDITOR:-vim}
+exec $EDITOR $(readlink -f ${fname})
