@@ -5,7 +5,16 @@ date = 2018-12-31T15:00:00Z
 +++
 
 These review posts have proven incredibly useful when looking up stuff, so I'll continue this tradition.
- ([2017](/blog/2017/2017-in-review/)/[2016](/blog/2016/2016-in-review/)/[2015](/blog/2015/2015-in-review/)/[2014](/blog/2014/2014-in-review/)/[2013](/blog/2014/2013-in-review/))
+
+<p>&nbsp;</p>
+
+( [2017][yr2017] / [2016][yr2016] / [2015][yr2015] / [2014][yr2014] / [2013][yr2013] )
+
+[yr2017]: /blog/2017/2017-in-review/
+[yr2016]: /blog/2016/2016-in-review/
+[yr2015]: /blog/2015/2015-in-review/
+[yr2014]: /blog/2014/2014-in-review/
+[yr2013]: /blog/2014/2013-in-review/
 
 
 ### Non-Board Games I've played/bought

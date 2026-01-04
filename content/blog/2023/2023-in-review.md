@@ -6,14 +6,17 @@ date = 2023-12-31T20:22:00Z
 
 These review posts have proven useful when looking up stuff, so I'll continue this tradition.
 
-([2022][yr2022]/[2021][yr2021]/[2020][yr2020]/[2019][yr2019]/[2018][yr2018]/[2017][yr2017]/[2016][yr2016]/[2015][yr2015]/[2014][yr2014]/[2013][yr2013])
+<p>&nbsp;</p>
+
+( [2022][yr2022] / [2021][yr2021] / [2020][yr2020] / [2019][yr2019] /
+[2018][yr2018] / [2017][yr2017] / [2016][yr2016] / [2015][yr2015] / [2014][yr2014] / [2013][yr2013] )
 
 [yr2022]: /blog/2022/2022-in-review/
 [yr2021]: /blog/2021/2021-in-review/
 [yr2020]: /blog/2020/2020-in-review/
 [yr2019]: /blog/2019/2019-in-review/
 [yr2018]: /blog/2018/2018-in-review/
-[yr2017]: /blog/2017/2017-in-review/
+[yr2017]: /blog/2018/2017-in-review/
 [yr2016]: /blog/2016/2016-in-review/
 [yr2015]: /blog/2015/2015-in-review/
 [yr2014]: /blog/2014/2014-in-review/

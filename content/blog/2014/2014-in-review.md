@@ -5,8 +5,9 @@ date = 2014-12-31T17:00:00Z
 +++
 
 
+In the spirit of "Release early, release often" I am pushing this out on New Year's Eve and will amend it later, not happy with the brevity in some paragraphs, but it's mostly correct. ( cf [2013][yr2013] )
 
-In the spirit of "Release early, release often" I am pushing this out on New Year's Eve and will amend it later, not happy with the brevity in some paragraphs, but it's mostly correct.
+[yr2013]: /blog/2014/2013-in-review/
 
 
 ### Non-Board Games I've played/bought

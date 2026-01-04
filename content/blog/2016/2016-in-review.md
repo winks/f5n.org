@@ -5,9 +5,17 @@ date = 2016-12-31T14:00:00Z
 +++
 
 These review posts have proven incredibly useful when looking up stuff, so I'll continue this tradition.
- ([2015](/blog/2015/2015-in-review/)/[2014](/blog/2014/2014-in-review/)/[2013](/blog/2014/2013-in-review/))
+
+<p>&nbsp;</p>
+
+( [2015][yr2015] / [2014][yr2014] / [2013][yr2013] )
+
+[yr2015]: /blog/2015/2015-in-review/
+[yr2014]: /blog/2014/2014-in-review/
+[yr2013]: /blog/2014/2013-in-review/
 
 Happy new year 2017, may it be better than 2016 :)
+
 
 ### Non-Board Games I've played/bought
 
