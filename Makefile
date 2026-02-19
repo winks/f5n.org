@@ -26,7 +26,7 @@ regen: css generate
 reserve: regen serve
 
 serve:
-	cd public && python3 -m http.server 8081
+	cd public && python3 -m http.server 8085
 
 rsync:
 	rsync -av --delete --exclude=media/misc public/ deploy_f5n:www/f5n.org/public

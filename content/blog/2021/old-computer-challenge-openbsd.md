@@ -58,14 +58,23 @@ UKC> disable radeondrm
 UKC> quit
 ```
 
-or do it permanently:
+or do it permanently (on revisiting it seems I copy/pasted this wrong):
 
 
 ```
 # config -ef /bsd
-UKC> disable inteldrm
+UKC> disable radeondrm
 UKC> quit
 ```
+
+Edit 2026-02: All that seems to still work, I did this:
+
+```
+echo 'disable radeondrm' >> /etc/bsd.re-config
+config -e -c /etc/bsd.re-config -f /bsd
+reboot
+```
+
 
 ## Some configuration
 
