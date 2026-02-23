@@ -1,17 +1,21 @@
 +++
-draft = true
-title = "Cycling the D11, part 3"
-date = 2025-06-04T00:07:25Z
+draft = false
+title = "Cycling on the D11, part 3"
+date = 2026-02-23T20:27:25Z
 +++
 
 In [2023](/blog/2023/bikepacking-d11/) I started cycling along the
-[D11][d11] ([Ostsee-Oberbayern-Radweg][d11de]) across Germany, 500km on that
-trip, then 300km [in 2024](/blog/2024/d11-part-two/).
+[D11][d11] ([Ostsee-Oberbayern-Radweg][d11de]) across Germany, doing 500km on
+that trip, then 300km [in 2024](/blog/2024/d11-part-two/).
 
 [d11]: https://en.wikipedia.org/wiki/German_Cycling_Network
 [d11de]: https://de.wikipedia.org/wiki/Ostsee%E2%80%93Oberbayern_(D11)
 
 This is part 3, four days and 430km.
+
+
+![Obligatory log picture](/media/blog/2025/2025_d11_ktm.jpg)
+
 
 ## Planning
 
@@ -32,10 +36,10 @@ What I decided on:
 
 ## Preparations
 
-I didn't need a lot of new gear, but I wanted new rain pants, as my 10 or more
-like likely 12 or 13y old pair was already disintegrating, so I grabbed a pair
-for 60 EUR at Lucky Bike and saw a black jersey on the discount pile for 40
-EUR, and it was the matching one to my black MTB shorts (also Endura), so I
+I didn't need a lot of new gear, but I wanted new rain pants, as my 10 (or
+more likely 12 or 13) year old pair was already disintegrating, so I grabbed a
+pair for 60 EUR at Lucky Bike and happened to find a black jersey on the
+discount pile for 40 EUR (matching my black MTB shorts, also Endura), so I
 bought that as well.
 
 My trusty Garmin eTrex that I'd bought in 2016 for 170 EUR had lost its power
@@ -44,30 +48,33 @@ to get a newer, proper cycling GPS for a while, so after some research I
 went with the Edge 840 because I'd been happy with Garmin devices in the past.
 The eTrex and also the car navi was fine. I ended up paying 390 EUR for it.
 
-The irony of probably paying more for this thing than for any 
+The irony of probably paying more for this thing than for any
 [mobile phone/tablet](/blog/2023/mobile-phones/) I have ever owned is not
 lost on me. But in my defense I'm not that worried about security and plan
 to keep using it for 8-10 years if it holds up, just like the last one.
-
 
 
 ## Day 1 - Hof - Kaulsbach
 
 My train to Hof was scheduled for 5:44 and I need 30 minutes of (slow) riding
 to the train station, so I got up at around 4:15 with most things already
-packed and went on my merry way, forgetting I'll be passing one club with
-many drunk people and glass on the street at 5 am, as usually.
+packed and went on my merry way, forgetting I'll be passing that one club with
+many drunk people and glass on the street at 5 am, as on every early morning
+weekend ride to the main station.
 
 The train arrived on time at 9:20, then I noticed that I should have spent a
 little more time famliarizing myself with the Garmin Edge, so I took a little
 detour because I messed up, still in Hof.
 
-At some point I passed into Thuringia, but I don't remember seeing a sign.
+At some point I passed into Thuringia, but I don't remember seeing a sign on
+that gravel path.
 
 As it was Father's Day I saw a lot of groups (mostly men, but not only)
 hiking, walking, drinking beer, cycling and to my surprise I was cheered
 on quite a few times when they noticed I'm the only idiot on this route
 without an e-bike.
+
+![Saale ferry](/media/blog/2025/2025_d11_saale.jpg)
 
 Speaking of the route... too much elevation, too many small hills and
 mountains. Had to push the bike a couple times. In total around 1600m
@@ -81,7 +88,7 @@ the closed off courtyard and they had something to lock it to the wall.
 
 Dinner in their restaurant was also very good (Soljanka and Wiener Schnitzel).
 
-For some reason I couldn't really fall asleep, despite that very tedious
+For some reason I couldn't really fall asleep, despite that very exhausting
 day, but I think I still got 8h in the end.
 
 Breakfast was also really good here.
@@ -113,9 +120,12 @@ stay in Freyburg.
 The room was decent, the bathroom was a little small for someone my size,
 but overall ok. Could bring the bike into the entry hall of the building.
 
-Went to [Haveli][https://haveli-freyburg.net/], an Indian Restaurant, for
+Went to [Haveli](https://haveli-freyburg.net/), an Indian Restaurant, for
 dinner, quite a big portion of Chicken Tikka Masala and some Naan, and
 pretty good.
+
+
+![Naumburger Dom](/media/blog/2025/2025_d11_naumburg.jpg)
 
 
 ## Day 3 - Freyburg - Alsleben
@@ -141,11 +151,11 @@ following the river Saale).
 
 Grabbed dinner at a small pension/restaurant in the town center and talked
 to the only other guest at the next table, also a cycling tourist. A welcome
-surprise, apparently I'm not good with chatting up other cyclists on my
-tours normally.
+surprise, apparently I'm not so good with chatting up other cyclists on my
+tours as other people are.
 
 Because my shoulder had started to hurt the day before I had picked up
-some stuff from a drugstore in the morning, as it was Saturday and they
+some stuff from a drugstore in the morning, luckily it was Saturday and they
 were still open.
 
 Either I hadn't read the booking page carefully or they were not very obvious
@@ -153,14 +163,19 @@ with their offering, but I was a little surprised to find a communal shower
 (and toilet) next to the small log hut I'd booked. Not a problem, really - but
 they had failed to mention that showering was to be paid with 1 EUR coins and
 even the toilet was locked behind 20ct coins, but it was open when I arrived,
-or I would have asked. Also apparently the last renters had taken the only
-set of keys with them and they would be mailed back in the future... so
+or I would have probably been less chill about it.
+Also apparently the last guests had taken the only
+set of keys with them and those would be mailed back in the future... so
 I had no keys to my room, but I wasn't too worried about that, being on a
-property, behind another house and a fence. And they had no curtains so the
-sun woke me up at 5:30...
+property, behind another house and a fence. But they had no curtains in the
+hut and so the sun woke me up at 5:30...
 
 But at least it was cheap, and it actually looked as nice as on the pictures,
 and I could sit on my own porch and look out on the river in the evening.
+
+
+![Saale](/media/blog/2025/2025_d11_2.jpg)
+
 
 ## Day 4 - Alsleben - Dessau
 
@@ -184,14 +199,14 @@ week at work and not completely optimistic to be sleeping well or at all on
 the bus I opted to take a cheap hotel room in Leipzig and try to sleep from
 around 8pm to 1 am, which surprisingly mostly worked. 40 EUR well spent.
 Also [the room](https://www.booking.com/hotel/de/gwuni-mopera.html) was
-actually pretty nice, not even taking the price into account.
+pretty nice, not even taking the price into account.
 
 At first I had planned to maybe take a bed in a hostel for 15 EUR, but for
 this case where the only things I wanted were a shower and silence for a
 couple of hours and not having to care about the bike or getting a towel or
 whatever... I guess the 20-25 EUR was an ok tradeoff.
 
-The bus thing worked out surprisingly fine, and I could actually sleep a
+To my surprise the bus thing worked out fine, and I could actually sleep a
 couple hours more, so I didn't feel too bad in the morning and also didn't
 have to instantly jump in the shower again.
 
@@ -205,21 +220,21 @@ Oh, and here's the GPX result in comparison to the route above:
 
 ## Packing list
 
-Not too many changes to last year's setup, and actually not too many changes
+Not too many changes to last year's setup, and also not too many changes
 to the [2023](/blog/2023/bikepacking-d11/) setup either.
 
   * same bike, KTM X-Strada
   * same handle bar, frame, and top tube bag
   * same backpack
-  * same pannier
+  * same pannier (single one)
   * same shoes, same clothes (mostly)
 
 
 Stuff I had changed before the trip:
 
-  * second bidon in the bottle holder, exclusively with water
+  * second bidon in the bottle holder, only for water and not sugary stuff
   * new bike pump
-  * some voile straps always in the frame bag
+  * some voile straps in the frame bag
 
 
 Deliberate changes for this trip:
@@ -229,7 +244,7 @@ Deliberate changes for this trip:
   * more rain/cold weather gear overall
   * backup wall plug and cable
   * banana!
-  * less sweets, no gels, just some store-bought bars
+  * less sweets, no gels, just some store-bought oat/cereal bars
   * daily dose of magnesium against cramps (it helped)
   * no bulky glasses case, only a light felt pouch
 
@@ -296,3 +311,7 @@ time, and getting back was 5:30h on a bus.
 Having the new Garmin and connecting it to the phone was really great, I used
 [brouter](https://brouter.de) and [gpx.studio](https://gpx.studio) for on the
 fly checking and planning my routes when having breaks and in the evening.
+
+
+And yeah, this should have been published last summer, it was even mostly
+written but I never came around finishing it until February 2026.
