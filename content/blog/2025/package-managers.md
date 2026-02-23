@@ -10,9 +10,11 @@ every machine at every time (the curse of shared dotfiles):
 
   * add rustup's `bin/` and source `.cargo/env`
   * add `/usr/local/go/bin`
-  * add JDK via SDKMAN (partial dogfooding for [leiningen-sdkman][]
+  * add JDK via SDKMAN (partial dogfooding for [leiningen-sdkman][leinsdk]
   * Homebrew
   * `nvm` for node.js
+
+[leinsdk]: https://codeberg.org/wink/leiningen-sdkman
 
 And then stuff I don't currently use:
 

@@ -59,3 +59,5 @@ According to [this page](https://trac.ffmpeg.org/wiki/Encode/MP3), the
 that is not a fixed 320kbit/s bitrate.
 
 `easytag` + gnudb works for tagging the FLACs, and they get copied to the MP3s.
+
+Reference: [cdio man page](https://man.openbsd.org/OpenBSD-7.8/cdio)

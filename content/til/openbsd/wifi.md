@@ -26,4 +26,4 @@ Notes:
   * `join` works with several, the old `nwid` only works once
   * `man hostname.if`
 
-Reference: https://www.openbsd-desktop.rocks/posts/wi-fi-connection/
+Reference: [openbsd-desktop.rocks/posts/wi-fi-connection/](https://www.openbsd-desktop.rocks/posts/wi-fi-connection/)
