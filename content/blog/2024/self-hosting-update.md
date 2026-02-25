@@ -9,7 +9,7 @@ since then I've made a few changes:
 
   * server 1 - a blog
     * Debian 12 with podman (not happy with the rootless setup)
-    * Caddy, Tailscale, grafana-agen on the host
+    * Caddy, Tailscale, grafana-agent on the host
     * MySQL in a container
     * PHP + Wordpress in a container
   * server 2 - irc, websites

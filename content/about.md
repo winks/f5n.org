@@ -72,7 +72,7 @@ Here are some places I visit and/or post at more or less regularly:
   * [<code class="code">wink&nbsp;&nbsp;</code>@ stackoverflow](http://stackoverflow.com/users/1432620/wink) (Mostly nothing)
   * [<code class="code">???&nbsp;&nbsp;&nbsp;</code>@ kickstarter](https://www.kickstarter.com/profile/1907362337) (More nothing)
   * <code class="code">wink.soup.io</code> - *abandoned even when it worked, because...*
-  * [<code class="code">wink's multiplex</code>](http://paranoia.eu.org/) - *I built [my own](https://github.com/winks/multiplex)*
+  * [<code class="code">wink's multiplex</code>](http://paranoia.eu.org/) - *I built [my own](https://codeberg.org/wink/multiplex)*
 
 I've closed down my Twitter account in 2023 when all the drama started to heat up and I don't plan to go back.
 
@@ -115,7 +115,7 @@ Ruby and Perl, yet never used them in production.
 
 So the currently (October 2025) involved technologies are:
 
-  * SASS
+  * Sass
   * [nextgen][nextgenrepo]
   * make
   * [Caddy](https://caddyserver.com)

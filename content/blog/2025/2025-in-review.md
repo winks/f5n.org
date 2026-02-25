@@ -105,8 +105,10 @@ Yay, this category is finally back.
 ### Trips
 
   * summer vacation in the Spessart region in July, also bike tour to get there
-  * multi-day cycling trip, continuing the route along the D11 (blog post tbd)
+  * multi-day cycling trip, continuing the route along the D11 ([blog post][d11-3])
   * pre-christmas trip to Erfurt, Bamberg, Fürth
+
+[d11-3]: /blog/2026/d11-part-three/
 
 
 ### (Online) Services
